@@ -199,10 +199,11 @@ body{
 header{
 	text-align: center;
 	min-width: 100%;
+	height: 100px;
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background:url(../images/dark.jpg) center 30px no-repeat;
+	background:url(../images/dark.jpg) center center no-repeat;
 	border-bottom: 1px solid #edeeee;
 }
 header h1 {
