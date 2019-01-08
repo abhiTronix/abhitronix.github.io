@@ -202,8 +202,6 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background-image: url("../images/spidi-min.jpg") center center no-repeat;
-	background-size: 100%;
 }
 header h1 {
     font-size: 70px;
