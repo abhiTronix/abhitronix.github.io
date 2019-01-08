@@ -3,7 +3,7 @@
 > A Visionary Researcher.
 
 
-Hi, I am *@abhiTronix* (Abhishek Singh Thakur, India), a hardworking, determined, and a passionate Researcher, Hobbyist/Maker, Coder, Always keen to learn newer techniques, skills and consistently working on achieving long-term goals. I am currently researching on various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
+Hi, I am *@abhiTronix* (Abhishek Singh Thakur), a hardworking, determined, and a passionate Researcher, Hobbyist/Maker, Coder, Always keen to learn newer techniques, skills and consistently working on achieving long-term goals. I am currently researching on various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
 I graduated from [Himachal Pradesh Technical University, Hamirpur, India](http://www.himtu.ac.in/) by 2017.
 
 
