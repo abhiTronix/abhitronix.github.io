@@ -202,7 +202,7 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background:url(../images/spidi-min.jpg) 145px 80% no-repeat;
+	background:url(../images/spidi-min.jpg) 100% 80% no-repeat;
 	border-bottom: 1px solid #edeeee;
 }
 header h1 {
@@ -222,7 +222,7 @@ header p{
 	margin: 1.7em;
 }
 header img{
-	width: 175px;
+	width: 300px;
 }
 
 .cbp_tmlabel .hux_ul{
