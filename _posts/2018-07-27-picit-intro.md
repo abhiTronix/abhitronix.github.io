@@ -15,9 +15,9 @@ Update: 31 August 2018
 
 ---
 > **Have you find yourself in these scenarios:**
-> - Got an Online form to fill, but no digital Passport Size image? 
+> - Got an Online form to fill, but no digital Passport Size image?  
 > No worries, Let the AI do the labors job of cropping, aligning & compressing Faces to the desired size.
-> - No single, only Group photos? 
+> - No single, only Group photos?  
 > Not a problem, PiciT can Extract and Align any number of faces in an image at the same time.<br>
 
 ![](/img/in-post/picit/picit_1.jpg)
@@ -33,7 +33,7 @@ PiciT comprises smart UI which is powered with Deep Learning & Vision AI Algorit
 - Single/Multiface detection and aligning at the same time with AI!
 - Intuitive & Multi-featured Manual Cropping & Refining Tool!
 - Amiable inbuilt Camera!
-- Build passport size photo, profile picture, Image compression, Face profiling list goes on and on.
+- Build passport size photo, profile picture, Image compression, Face profiling list goes on and on.    
 *So forget old boring cropping apps and just PiciT!*
 
 ### Try it out Yourself?
