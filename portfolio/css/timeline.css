@@ -226,9 +226,9 @@ header::before {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: #fd6a02;
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
+	background-image: url(../images/header-bg.png);
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
 	opacity: 1;
 	z-index: -1;
 }
