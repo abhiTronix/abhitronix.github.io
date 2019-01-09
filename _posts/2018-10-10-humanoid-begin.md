@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Human-Sized Artificially Intelligent Humanoid"
+title: "Building a Human-Sized Artificially Intelligent Humanoid"
 subtitle: 'Initial Thoughts and Roadmapping'
 author: "abhiTronix"
 header-img: "img/humanoid-bg.jpg"
