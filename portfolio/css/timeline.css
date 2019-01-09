@@ -218,6 +218,9 @@ header{
 	padding-bottom: 10em;
 	position: relative;
 	background: #fd6a02;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+
 }
 header h1 {
     font-size: 70px;
