@@ -20,13 +20,11 @@ Update: 10 October 2018
 
 ![](/img/in-post/manav/humanoid.jpg)
 
-Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over a Year and a Half, and now its time to step up and apply them. I'll be tackling each problem step by step until my research in this field is completed. So, let's do it!!!
+Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over the year, now is the time to step up and apply them. I'll be tackling each problem step by step until my research in this field is completed. So, let's do it!!!
 
 # My Thoughts:
-
 > So, the question is "What's the Difference Between Robotics and Artificial Intelligence?" and "What types of robots are suitable for our Humanoid Project?"  
-
-Let's answer these:
+Let's answer:
 
 Robotics: Robotics is a branch of technology which deals with robots. Robots are programmable machines which are usually able to carry out a series of actions autonomously, or semi-autonomously.
 In my opinion, there are three important factors which constitute a robot:
