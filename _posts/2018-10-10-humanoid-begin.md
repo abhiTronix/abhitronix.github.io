@@ -57,17 +57,16 @@ After going through various research papers and resources available on the inter
 After done researching, I reached the following conclusion:
 - Usually, humanoids or any other intelligent robot uses easy to work with ROS platform. ROS stands for Robot Operating System is robotics middleware. Although ROS is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management. But unfortunately it lacks in intelligence and it's more hardware specific.
 - Make Humanoid's eyes Articulated, so that it has same DoF(Degree of Freedom) as natural human eyes and also add Deep Vision Capabilities to it.
-- Add Speech recognition as a natural voice to the humanoid.
-- Articulated neck mechanism to give it natural DoF. 
+- Add Speech recognition capabilities as well as a natural voice and mimicing lips movement too.
+- Articulated mechanism whereever possible to give it a natural touch. 
 
 ![](/img/in-post/manav/humanoid-brain.jpg)
 
 ### Resources gathering:
-- To tackle Artifical intelligence problem, I decided to develop my own AI which I already been working on, **Matson AI**, a python language-based human alike artificial intelligence which can see(Deep Vision), talk, hear, recognize its environment through its sensors made exclusively for internet of things connected devices (currently exists on raspberry pi). 
-it is created in the first place so as to able to embed it on any existing system|hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending control signals.
-- Further, I decided to adapt an open-sourced design called **InMoov Humanoid** developed by _Gaël Langevin_, and to further develop/innovate its parts according to my Humanoid needs, which tends to make my job of designing humanoid somewhat way easier.
+- To tackle Artifical intelligence problem, I decided to develop my own AI which I already been working on, known as **Matson AI**, a python language-based human alike artificial intelligence dervied from Niaomi Project. It can see(Deep Vision), talk, hear, recognize its environment through its sensors. It is made exclusively for raspberry pi and is created in the first place so as to able to embed it on any existing system|hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending required control signals.
+- Further, I decided to adapt an open-sourced Humanoid design called **InMoov Humanoid** developed by _Gaël Langevin_, and planned to further develop/innovate its parts according to my Humanoid needs. It gave me idea and direction, which tends to make my job of designing humanoid way easier.
 
-These are my initial roadmap, for developing my Humanoid. Through these research, I'll study various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
+These are my initial roadmap, for developing my Humanoid. Through this research, I'll study various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
 
 ---
 
