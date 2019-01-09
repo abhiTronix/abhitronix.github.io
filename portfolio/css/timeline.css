@@ -222,6 +222,21 @@ header{
 	-webkit-filter: blur(8px);
 
 }
+header img {
+	text-align: center;
+	min-width: 100%;
+	padding: 5em 0px;
+	padding-bottom: 10em;
+	position: relative;
+	background: #fd6a02;
+}
+header h2 {
+	text-align: center;
+	min-width: 100%;
+	padding: 5em 0px;
+	padding-bottom: 10em;
+	position: relative;
+}
 header h1 {
     font-size: 70px;
     font-weight: 700;
