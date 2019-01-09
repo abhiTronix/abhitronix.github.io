@@ -210,7 +210,6 @@ html{
 }
 body{
 	background: #222021;
-	background-image: url(../images/header-bg.png);
 }
 header{
 	text-align: center;
@@ -218,7 +217,7 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background: #fd6a02;
+	background-image: url(../images/header-bg.png);
 }
 header::before {
 	content: '';
