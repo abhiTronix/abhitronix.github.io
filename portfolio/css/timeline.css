@@ -222,21 +222,6 @@ header{
 	-webkit-filter: blur(8px);
 
 }
-header img {
-	text-align: center;
-	min-width: 100%;
-	padding: 5em 0px;
-	padding-bottom: 10em;
-	position: relative;
-	background: #fd6a02;
-}
-header h2 {
-	text-align: center;
-	min-width: 100%;
-	padding: 5em 0px;
-	padding-bottom: 10em;
-	position: relative;
-}
 header h1 {
     font-size: 70px;
     font-weight: 700;
@@ -256,7 +241,20 @@ header p{
 header img{
 	width: 300px;
 }
-
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
 .cbp_tmlabel .hux_ul{
 	border:none;
 	padding:0;
