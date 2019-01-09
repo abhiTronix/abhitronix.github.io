@@ -47,7 +47,7 @@ Then comes Artificially Intelligent Robots:
 Artificially intelligent robots are the hybrid between robotics and AI. These are robots which are controlled by AI programs. Up until quite recently, all industrial robots could only be programmed to carry out a repetitive series of movements. As we have discussed, repetitive movements do not require artificial intelligence.
 Non-intelligent robots are quite limited in their functionality. AI algorithms allow the robot to perform more complex tasks. Thereby, making them perfect for developing our Humanoid.
 
----
+  
 
 # My Roadmap:
 
@@ -72,6 +72,5 @@ it is created in the first place so as to able to embed it on any existing syste
 These are my initial roadmap, for developing my Humanoid.
 
 ---
-
 
 *Hey there, Hope you enjoy reading this article. If so, Share it with your family & friends! and Stay tuned for more ;)*
