@@ -20,7 +20,7 @@ Update: 10 October 2018
 
 ![](/img/in-post/manav/humanoid.jpg)
 
-Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over the year, now is the time to step up and apply them. I'll be tackling each problem step by step until my research in this field is completed. So, let's do it!!!
+Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over the year, now is the time to step up and apply them. So, let's do it!!!
 
 # My Thoughts:
 > So, the question is "What's the Difference Between Robotics and Artificial Intelligence?" and "What types of robots are suitable for our Humanoid Project?"  
@@ -67,7 +67,7 @@ After done researching, I reached the following conclusion:
 it is created in the first place so as to able to embed it on any existing system|hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending control signals.
 - Further, I decided to adapt an open-sourced design called **InMoov Humanoid** developed by _Gaël Langevin_, and to further develop/innovate its parts according to my Humanoid needs, which tends to make my job of designing humanoid somewhat way easier.
 
-These are my initial roadmap, for developing my Humanoid. Through it, I'll study various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
+These are my initial roadmap, for developing my Humanoid. Through these research, I'll study various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
 
 ---
 
