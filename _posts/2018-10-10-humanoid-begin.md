@@ -23,6 +23,7 @@ Update: 10 October 2018
 Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over a Year and a Half, and now its time to step up and apply them. I'll be tackling each problem step by step until my research in this field is completed. So, let's do it!!!
 
 # My Thoughts:
+
 > So, the question is "What's the Difference Between Robotics and Artificial Intelligence?" and "What types of robots are suitable for our Humanoid Project?"  
 
 Let's answer these:
@@ -48,9 +49,10 @@ Non-intelligent robots are quite limited in their functionality. AI algorithms a
 
 ---
 
+# My Roadmap:
+
 > “*A year spent in artificial intelligence is enough to make one believe in God.*” — Alan Perlis
 
-# My Roadmap:
 After going through various research papers and resources available on the internet, There has been already a lot of research already been done on lower body parts and less research has been done on more complex parts such as brain, mouth, and eyes. So, I decided to mainly focus on these areas first and then extend to further parts of the body. 
 
 ### Information Available:
