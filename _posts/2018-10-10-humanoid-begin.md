@@ -26,14 +26,14 @@ Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Hum
 > So, the question is "What's the Difference Between Robotics and Artificial Intelligence?" and "What types of robots are suitable for our Humanoid Project?"  
 Let's answer:
 
-Robotics: Robotics is a branch of technology which deals with robots. Robots are programmable machines which are usually able to carry out a series of actions autonomously, or semi-autonomously.
+**Robotics:** Robotics is a branch of technology which deals with robots. Robots are programmable machines which are usually able to carry out a series of actions autonomously, or semi-autonomously.
 In my opinion, there are three important factors which constitute a robot:
 - Robots interact with the physical world via sensors and actuators.
 - Robots are programmable.
 - Robots usually can be autonomous or semi-autonomous.
 Robots are "usually" autonomous because some robots aren't, Telerobots(a branch of robotics), for example, is entirely controlled by a human operator. Some people say that a robot must be able to "think" and make decisions. However, there is no standard definition of "robot thinking." Requiring a robot to "think" suggests that it has some level of artificial intelligence. However you choose to define a robot, robotics involves designing, building and programming physical robots. Only a small part of it involves artificial intelligence.
 
-Artificial Intelligence: Artificial intelligence(AI) involves developing computer programs to complete tasks which would otherwise require human intelligence. 
+**Artificial Intelligence:** Artificial intelligence(AI) involves developing computer programs to complete tasks which would otherwise require human intelligence. 
 - AI algorithms can tackle learning, perception, problem-solving, language-understanding and/or logical reasoning.
 - AI is used in many ways in the modern world. For example, AI algorithms are used in Google searches, Amazon's recommendation engine, and SatNav route finders. 
 - AI can be used to control robots, but the AI algorithms are only part of the larger robotic system, which also includes sensors, actuators, and non-AI programming. 
@@ -42,7 +42,7 @@ The key aspect that differentiates AI from more conventional programming is the 
 ![](/img/in-post/manav/humanoid-ven.jpg)
 
 Then comes Artificially Intelligent Robots:
-Artificially intelligent robots are the hybrid between robotics and AI. These are robots which are controlled by AI programs. Up until quite recently, all industrial robots could only be programmed to carry out a repetitive series of movements. As we have discussed, repetitive movements do not require artificial intelligence.
+**Artificially intelligent robots** are the hybrid between robotics and AI. These are robots which are controlled by AI programs. Up until quite recently, all industrial robots could only be programmed to carry out a repetitive series of movements. As we have discussed, repetitive movements do not require artificial intelligence.
 Non-intelligent robots are quite limited in their functionality. AI algorithms allow the robot to perform more complex tasks. Thereby, making them perfect for developing our Humanoid.
 
   
@@ -58,7 +58,7 @@ After done researching, I reached the following conclusion:
 - Usually, humanoids or any other intelligent robot uses easy to work with ROS platform. ROS stands for Robot Operating System is robotics middleware. Although ROS is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management. But unfortunately it lacks in intelligence and it's more hardware specific.
 - Make Humanoid's eyes Articulated, so that it has same DoF(Degree of Freedom) as natural human eyes and also add Deep Vision Capabilities to it.
 - Add Speech recognition capabilities as well as a natural voice and mimicing lips movement too.
-- Articulated mechanism whereever possible to give it a natural touch. 
+- Employing articulated mechanism wherever possible, to provide it a natural motion. 
 
 ![](/img/in-post/manav/humanoid-brain.jpg)
 
