@@ -218,10 +218,13 @@ header{
 	padding-bottom: 10em;
 	position: relative;
 	background: #fd6a02;
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-
 }
+header::before {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  opacity: 1;
+}
+
 header h1 {
     font-size: 70px;
     font-weight: 700;
