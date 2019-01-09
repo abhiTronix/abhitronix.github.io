@@ -222,7 +222,6 @@ header{
 header::before {
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  opacity: 1;
 }
 
 header h1 {
