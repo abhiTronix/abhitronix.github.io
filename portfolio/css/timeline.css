@@ -35,6 +35,12 @@ body, html {
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
 
+@font-face {
+	font-family: 'abel';
+	src:url('../fonts/Abel-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 .cbp_tmtimeline {
 	padding: 0;
 	list-style: none;
@@ -99,7 +105,7 @@ body, html {
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'huxico';
+	font-family: 'abel';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
