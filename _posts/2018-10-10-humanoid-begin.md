@@ -49,7 +49,6 @@ Then comes Artificially Intelligent Robots:
 # My Roadmap:
 
 > “*A year spent in artificial intelligence is enough to make one believe in God.*” — Alan Perlis
-
 After going through various useful research papers and resources available on the internet, I came to the conclusion that, there has already been significant research done in past on other body parts as compared to more complex body parts such as brain, mouth, and eyes. So, I decided to mainly focus on developing complex Humanoid parts first and then extend my research to other parts of the body by utilizing existing available research information. 
 
 ### Information Available:
