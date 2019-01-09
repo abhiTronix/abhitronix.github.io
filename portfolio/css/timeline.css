@@ -227,8 +227,8 @@ header::before {
 	height: 100%;
 	width: 100%;
 	background-image: url(../images/header-bg.png);
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
 	opacity: 1;
 	z-index: -1;
 }
