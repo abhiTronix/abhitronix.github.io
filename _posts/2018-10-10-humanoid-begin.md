@@ -10,8 +10,8 @@ tags:
   - Robotics
   - Matson
   - Manav
-  - Deep_Vision
-  - Artificial_Intelligence
+  - Deep Vision
+  - Artificial Intelligence
 ---
 
 Update: 10 October 2018

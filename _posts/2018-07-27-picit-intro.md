@@ -8,7 +8,7 @@ header-mask: 0.2
 tags:
   - Android
   - PiciT
-  - Artificial_Intelligence
+  - Artificial Intelligence
 ---
 
 Update: 31 August 2018
