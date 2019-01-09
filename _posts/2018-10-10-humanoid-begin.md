@@ -9,7 +9,6 @@ tags:
   - Humanoid
   - Robotics
   - Matson
-  - Manav
   - Deep Vision
   - Artificial Intelligence
 ---
@@ -17,7 +16,7 @@ tags:
 Update: 10 October 2018
 
 ---
-> ì*It's going to be interesting to see how society deals with artificial intelligence, but it will definitely be cool.*î ó Colin Angle
+> ‚Äú*It's going to be interesting to see how society deals with artificial intelligence, but it will definitely be cool.*‚Äù ‚Äî Colin Angle
 
 ![](/img/in-post/picit/humanoid.jpg)
 
@@ -49,7 +48,7 @@ Non-intelligent robots are quite limited in their functionality. AI algorithms a
 
 ---
 
-> ì*A year spent in artificial intelligence is enough to make one believe in God.*î ó Alan Perlis
+> ‚Äú*A year spent in artificial intelligence is enough to make one believe in God.*‚Äù ‚Äî Alan Perlis
 
 # My Roadmap:
 After going through various research papers and resources available on the internet, There has been already a lot of research already been done on lower body parts and less research has been done on more complex parts such as brain, mouth, and eyes. So, I decided to mainly focus on these areas first and then extend to further parts of the body. 
@@ -66,7 +65,7 @@ After done researching, I reached the following conclusion:
 ### Resources gathering:
 - To tackle Artifical intelligence problem, I decided to develop my own AI which I already been working on, **Matson AI**, a python language-based human alike artificial intelligence which can see(Deep Vision), talk, hear, recognize its environment through its sensors made exclusively for internet of things connected devices (currently exists on raspberry pi). 
 it is created in the first place so as to able to embed it on any existing system|hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending control signals.
-- Further, I decided to adapt an open-sourced design called **InMoov Humanoid** developed by _GaÎl Langevin_, and to further develop/innovate its parts according to my Humanoid needs, which tends to make my job of designing humanoid somewhat way easier.
+- Further, I decided to adapt an open-sourced design called **InMoov Humanoid** developed by _Ga√´l Langevin_, and to further develop/innovate its parts according to my Humanoid needs, which tends to make my job of designing humanoid somewhat way easier.
 
 These are my initial roadmap, for developing my Humanoid.
 
