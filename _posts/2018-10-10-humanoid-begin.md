@@ -18,7 +18,7 @@ Update: 10 October 2018
 ---
 > “*It's going to be interesting to see how society deals with artificial intelligence, but it will definitely be cool.*” — Colin Angle
 
-![](/img/in-post/picit/humanoid.jpg)
+![](/img/in-post/manav/humanoid.jpg)
 
 Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Humanoid". After messing with Deep Vision/Learning and Robotics projects for over a Year and a Half, and now its time to step up and apply them. I'll be tackling each problem step by step until my research in this field is completed. So, let's do it!!!
 
@@ -40,7 +40,7 @@ Artificial Intelligence: Artificial intelligence(AI) involves developing compute
 - AI can be used to control robots, but the AI algorithms are only part of the larger robotic system, which also includes sensors, actuators, and non-AI programming. 
 The key aspect that differentiates AI from more conventional programming is the word "intelligence." Non-AI programs simply carry out a defined sequence of instructions. AI programs mimic some level of human intelligence.
 
-![](/img/in-post/picit/humanoid-ven.jpg)
+![](/img/in-post/manav/humanoid-ven.jpg)
 
 Then comes Artificially Intelligent Robots:
 Artificially intelligent robots are the hybrid between robotics and AI. These are robots which are controlled by AI programs. Up until quite recently, all industrial robots could only be programmed to carry out a repetitive series of movements. As we have discussed, repetitive movements do not require artificial intelligence.
@@ -60,7 +60,7 @@ After done researching, I reached the following conclusion:
 - Add Speech recognition as a natural voice to the humanoid.
 - Articulated neck mechanism to give it natural DoF. 
 
-![](/img/in-post/picit/humanoid-brain.jpg)
+![](/img/in-post/manav/humanoid-brain.jpg)
 
 ### Resources gathering:
 - To tackle Artifical intelligence problem, I decided to develop my own AI which I already been working on, **Matson AI**, a python language-based human alike artificial intelligence which can see(Deep Vision), talk, hear, recognize its environment through its sensors made exclusively for internet of things connected devices (currently exists on raspberry pi). 
