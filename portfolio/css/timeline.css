@@ -240,6 +240,9 @@ header h1 {
     margin-bottom: 10px;
     line-height: 1;
 }
+header h2 {
+    color: #000;
+}
 header p{
 	text-align: center;
 	color: #252728;
