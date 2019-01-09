@@ -51,7 +51,7 @@ Non-intelligent robots are quite limited in their functionality. AI algorithms a
 
 > “*A year spent in artificial intelligence is enough to make one believe in God.*” — Alan Perlis
 
-After going through various research papers and resources available on the internet, There has been already a lot of research already been done on lower body parts and less research has been done on more complex parts such as brain, mouth, and eyes. So, I decided to mainly focus on these areas first and then extend to further parts of the body. 
+After going through various research papers and resources available on the internet, I came to an conclusion that, there has been already alot of research already been done on lower body parts and rather less research has been done on more complex parts such as brain, mouth, and eyes. So, I decided to mainly focus on complex areas first and then extend to further parts of the body. 
 
 ### Information Available:
 After done researching, I reached the following conclusion:
@@ -67,7 +67,7 @@ After done researching, I reached the following conclusion:
 it is created in the first place so as to able to embed it on any existing system|hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending control signals.
 - Further, I decided to adapt an open-sourced design called **InMoov Humanoid** developed by _Gaël Langevin_, and to further develop/innovate its parts according to my Humanoid needs, which tends to make my job of designing humanoid somewhat way easier.
 
-These are my initial roadmap, for developing my Humanoid.
+These are my initial roadmap, for developing my Humanoid. Through it, I'll study various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help shaping our future.
 
 ---
 
