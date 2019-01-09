@@ -15,9 +15,9 @@ Update: 31 August 2018
 
 ---
 > **Have you find yourself in these scenarios:**
-> - Got an Online form to fill, but no digital Passport Size image?  
+> - "Got an Online form to fill, but no digital Passport Size image?"  
 > No worries, Let the AI do the labors job of cropping, aligning & compressing Faces to the desired size.
-> - No single, only Group photos?  
+> - "No single, only Group photos?"  
 > Not a problem, PiciT can Extract and Align any number of faces in an image at the same time.<br>
 
 ![](/img/in-post/picit/picit_1.jpg)
@@ -37,7 +37,7 @@ PiciT comprises smart UI which is powered with Deep Learning & Vision AI Algorit
 *So forget old boring cropping apps and just PiciT!*
 
 ### Try it out Yourself?
-<img src="/img/in-post/picit/picit_2.png" width="250" height="100" left="10">
+<a href="https://play.google.com/store/apps/details?id=com.abhitronix.app.picitz&hl=en" target="_blank"><img src="/img/in-post/picit/picit_2.png"  width="250" height="100" border="10" /></a>
 
 ### Update v0.15.0 (31 August 2018)
 - Final Beta rollout
