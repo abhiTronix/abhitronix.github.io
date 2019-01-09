@@ -149,6 +149,20 @@ body, html {
 	content: "\e003";
 	font-family: 'huxico';
 }
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
 
 /** Venders Logo **/
 .i-vue:before {
@@ -239,21 +253,6 @@ header p{
 	margin: 1.7em;
 }
 header img{
-	width: 300px;
-}
-.image-cropper {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-.profile-pic {
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%; //centers the image
-  height: 100%;
-  width: auto;
 }
 .cbp_tmlabel .hux_ul{
 	border:none;
