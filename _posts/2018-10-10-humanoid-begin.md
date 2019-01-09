@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a Human-Sized Artificially Intelligent Humanoid"
-subtitle: 'Initial Thoughts and Roadmapping'
+subtitle: 'Initial Thoughts and Roadmap'
 author: "abhiTronix"
 header-img: "img/humanoid-bg.jpg"
 header-mask: 0.2
