@@ -74,8 +74,8 @@ The initial design lacks in many factors, such as:
 
 ![](/img/in-post/manav/AEAM-3.jpg)
 * EyeLids: The human Eyelid is a thin fold of skin that covers and protects the human eye. The blink reflex protects the eye from foreign bodies. This feature made me think that why don't I incorporate this in my AEAM design in order to protect the cameras from dust and simultaneously provide shade in a bright light environment.
-So I redesigned the AEAM parts in [**Solidworks**](https://www.solidworks.com/) and implemented this feature into the design. The only changes in hardware are that the 4x micro servos number increased to 6x and the rest of the hardware remained similar.
-Due to the limited space, I repositioned the servos a number of times to get the optimal configuration.
+So I redesigned the AEAM parts in [**Solidworks**](https://www.solidworks.com/) and implemented this feature into the design. The only change in hardware is that the micro servos number increased to 4x to 6x but the rest of the hardware remained same.
+Due to the limited space, I repositioned the servos a number of times in the design to get the optimal configuration.
 
 * Secondly, I added a Bluetooth Module([**HC-05**](https://wiki.eprolabs.com/index.php?title=Bluetooth_Module_HC-05) in my case) to remotely communicate with the Arduino microcontroller.
 
