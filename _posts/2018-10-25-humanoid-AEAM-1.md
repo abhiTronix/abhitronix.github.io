@@ -14,10 +14,11 @@ tags:
 Update: 25 October 2018
 
 ---
-> "*We're fascinated with robots because they are reflections of ourselves.*" - Ken Goldberg
 
 Today, I'm going to share my journey on developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimics the natural movement of Human eyes. I divided this post into multiple parts to
 explain briefly the various stages of its development. So let's get to it!
+
+> "*We're fascinated with robots because they are reflections of ourselves.*" - Ken Goldberg
 
 # My Thoughts:
 
@@ -33,15 +34,14 @@ Isn't that amazing!
 
 # Designing:
 
-No doubt, Eye is one of the most complex parts of the human body, Therefore I went on a quest to experiment various designs and research papers and finally came up something totally distinct but unique solution i.e. AEAM a.k.an Advanced Eyes Articulate Mechanism.
+No doubt, Eye is one of the most complex parts of the human body, Therefore I went on a quest to experiment various designs and research papers and finally came up something totally distinct but unique solution i.e. AEAM a.k.a Advanced Eyes Articulate Mechanism.
 But the initial design wasn't practical and lacks on many things, and this post and upcoming posts will show various changes/fixes and design innovations I made on the way to come up with a final design. 
 
 ### Initial Design:
 
 ![](/img/in-post/manav/AEAM-2.jpg)
-
 The initial design was hugely inspired by an open-sourced Humanoid design called [**InMoov Humanoid**](http://inmoov.fr). The design covers almost all the aspects required for my design.
-![](/img/in-post/manav/humanoid-brain.jpg)
+
 The design consists:
 - various 3D designed & printed parts
 - 4x micro servos
@@ -61,7 +61,7 @@ explicitly through [**Adafruit PCA9685 16-Channel Servo Driver**](https://learn.
  Anyways, the 4x servos initial was controlled directly with the servos rotational force, But I modified this design with a pull-push mechanism which is accomplished by nylon thread and carefully bent rods, which converts rotational motion of the servos into translational motion. 
  The eyes have built-into tiny cameras(i used [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html) due to its smaller size), That provide it human retina like seeing capabilities.
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6455831468114575360" height="812" width="504" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="871" height="490" src="https://www.youtube.com/embed/extUGuceefo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The initial design lacks in many factors, such as:
 1. Synchronization: Human eyes are synchronized to provide near 180 degrees of Field of View. 
@@ -73,7 +73,6 @@ The initial design lacks in many factors, such as:
 ### Modifications:
 
 ![](/img/in-post/manav/AEAM-3.jpg)
-
 * EyeLids: The human Eyelid is a thin fold of skin that covers and protects the human eye. The blink reflex protects the eye from foreign bodies. This feature made me think that why don't I incorporate this in my AEAM design in order to protect the cameras from dust and simultaneously provide shade in a bright light environment.
 So I redesigned the AEAM parts in [**Solidworks**](https://www.solidworks.com/) and implemented this feature into the design. The only changes in hardware are that the 4x micro servos number increased to 6x and the rest of the hardware remained similar.
 Due to the limited space, I repositioned the servos a number of times to get the optimal configuration.
@@ -90,7 +89,7 @@ thus creating necessary PWM signals to control servos.
 
 Therefore with the help of precisely implemented mathematical algorithms, I'm able to implement the Synchronized kinematics in AEAM design. The Final results can be seen as below:  
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6455831713640747008" height="1078" width="504" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="871" height="490" src="https://www.youtube.com/embed/YDyEieAlE-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 After solving the synchronization problem my next goal was to implement Deep Vision, Proper Field of View and achieve Stability in AEAM Vision. But that's all for the future posts.
  
