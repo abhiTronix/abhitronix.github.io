@@ -18,7 +18,7 @@ Update: 25 October 2018
 Today, I'm going to share my journey on developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimics the natural movement of Human eyes. I divided this post into multiple parts to
 explain briefly the various stages of its development. So let's get to it!
 
-> "*We're fascinated with robots because they are reflections of ourselves.*" - Ken Goldberg
+> "We're fascinated with robots because they are reflections of ourselves." - Ken Goldberg
 
 # My Thoughts:
 
@@ -26,7 +26,7 @@ explain briefly the various stages of its development. So let's get to it!
 
 We already are very familiar with the structure of a Human eye, I used to specially learn and drew its structure ditto and neatly for scoring better marks in my school examinations :D. But Human eye is much
 more than we can imagine. Not only a human eye is an organ which reacts to light and pressure. But as a sense organ, it allows vision and helps to provide a three dimensional, moving image, normally colored in daylight. The human eye can differentiate between about 10 million colors and is possibly capable of detecting a single photon. 
-Can you imagine resolution of a human eye? Maybe no, but here it is, according to this article, I quote:
+Can you imagine resolution of a human eye? Maybe no, but here it is, according to [this article](http://clarkvision.com/imagedetail/eye-resolution.html), I quote:
 
 > human eye really sees a larger field of view, close to 180 degrees. Let's be conservative and use 120 degrees for the field of view. Then we would see 120 * 120 * 60 * 60 / (0.3 * 0.3) = 576 megapixels. The full angle of human vision would require even more megapixels.
 
