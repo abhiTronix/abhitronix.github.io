@@ -15,10 +15,8 @@ Update: 25 October 2018
 
 ---
 
-Today, I'm going to share my journey on developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimics the natural movement of Human eyes. I divided this post into multiple parts to
+Today, I'm going to share my journey of developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimics the natural movement of Human eyes. I divided this post into multiple parts to
 explain briefly the various stages of its development. So let's get to it!
-
-> "We're fascinated with robots because they are reflections of ourselves." - Ken Goldberg
 
 # My Thoughts:
 
@@ -33,6 +31,8 @@ Can you imagine resolution of a human eye? Maybe no, but here it is, according t
 Isn't that amazing! 
 
 # Designing:
+
+> "We're fascinated with robots because they are reflections of ourselves." - Ken Goldberg
 
 No doubt, Eye is one of the most complex parts of the human body, Therefore I went on a quest to experiment various designs and research papers and finally came up something totally distinct but unique solution i.e. AEAM a.k.a Advanced Eyes Articulate Mechanism.
 But the initial design wasn't practical and lacks on many things, and this post and upcoming posts will show various changes/fixes and design innovations I made on the way to come up with a final design. 
