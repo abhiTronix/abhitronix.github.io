@@ -58,8 +58,8 @@ and I preferred my own control mechanism and the controlling is done by:
 * The initial design was controlled by 4 servos([**Tower Pro Sg90**](http://www.towerpro.com.tw/product/sg90-7/), in my case), the 2-2 servos on either side of the eyes provides flexible up-down and left-right motion capabilities to each eye respectively.
   * The controlling of these servos is done explicitly through [**Adafruit PCA9685 16-Channel Servo Driver**](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all) which can drive up to 16 servos over **I2C** with only 2 pins.  The onboard PWM controller will drive all 16 channels simultaneously with no additional Arduino processing overhead. 
     * This driver talks to the [**Arduino Uno**](https://store.arduino.cc/usa/arduino-uno-rev3)(a microcontroller board based on the ATmega328P) which act as the brain, over **I2C** protocol with only 2 pins. *What's more, you can chain up to 62 of them to control up to 992 servos - all with the same 2 pins!*
-  * Anyways, the 4x servos initial was controlled directly with the servos rotational force, But I modified this design with a pull-push mechanism which is accomplished by nylon thread and carefully bent rods, which converts rotational motion of the servos into translational motion. 
-  * The eyes have built-into tiny cameras(like [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html)), That provide it human retina like seeing capabilities.
+* Anyways, the 4x servos initial was controlled directly with the servos rotational force, But I modified this design with a pull-push mechanism which is accomplished by nylon thread and carefully bent rods, which converts rotational motion of the servos into translational motion. 
+* These Robotics eyes are embedded with tiny cameras(like [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html)), That provides human retina like seeing capabilities.
 
 <iframe width="871" height="490" src="https://www.youtube.com/embed/extUGuceefo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
