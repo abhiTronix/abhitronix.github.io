@@ -15,7 +15,7 @@ Update: 25 October 2018
 
 ---
 
-Today, I'm going to share my journey of developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimics the natural movement of Human eyes. I divided this post into multiple parts to
+Today, I'm going to share my journey of developing a unique Robotic Advanced Eyes Articulate Mechanism, a hybrid design that can somewhat mimic the natural movement of Human eyes. I divided this post into multiple parts to
 explain briefly the various stages of its development. So let's get to it!
 
 # My Thoughts:
@@ -63,7 +63,7 @@ and I preferred my own control mechanism and the controlling is done by:
 
 <iframe width="871" height="490" src="https://www.youtube.com/embed/extUGuceefo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The initial design lacks in many factors, such as:
+The initial design lacks many factors, such as:
 1. Synchronization: Human eyes are synchronized to provide near 180 degrees of Field of View. 
 2. Variable Degree of Freedom: The initial design cannot control the Degree of Freedom of eyes which leads to unnatural movement of eyes, which kind of looks too spooky! 
 3. Stress on servos due to Variable Degree of Freedom
@@ -74,7 +74,7 @@ The initial design lacks in many factors, such as:
 
 ![](/img/in-post/manav/AEAM-3.jpg)
 * EyeLids: The human Eyelid is a thin fold of skin that covers and protects the human eye. The blink reflex protects the eye from foreign bodies. This feature made me think that why don't I incorporate this in my AEAM design in order to protect the cameras from dust and simultaneously provide shade in a bright light environment.
-So I redesigned the AEAM parts in [**Solidworks**](https://www.solidworks.com/) and implemented this feature into the design. The only change in hardware is that the micro servos number increased to 4x to 6x but the rest of the hardware remained same.
+So I redesigned the AEAM parts in [**Solidworks**](https://www.solidworks.com/) and implemented this feature into the design. The only change in hardware is that the micro servos number increased to 4x to 6x but the rest of the hardware remained the same.
 Due to the limited space, I repositioned the servos a number of times in the design to get the optimal configuration.
 
 * Secondly, I added a Bluetooth Module([**HC-05**](https://wiki.eprolabs.com/index.php?title=Bluetooth_Module_HC-05) in my case) to remotely communicate with the Arduino microcontroller.

@@ -26,7 +26,6 @@ Today, I'm starting my dream project "A Human-Sized Artificially Intelligent Hum
 > So, the question is "What's the Difference Between Robotics and Artificial Intelligence?" and "What types of robots are suitable for our Humanoid Project?"
 
 
-
 Let's answer:
 
 **Robotics:** Robotics is a branch of technology which deals with robots. Robots are programmable machines which are usually able to carry out a series of actions autonomously, or semi-autonomously.
@@ -48,7 +47,6 @@ Then comes Artificially Intelligent Robots:
 **Artificially intelligent robots** are the hybrid between robotics and AI. These are robots which are controlled by AI programs. Up until quite recently, all industrial robots could only be programmed to carry out a repetitive series of movements. As we have discussed, repetitive movements do not require artificial intelligence. Non-intelligent robots are quite limited in their functionality, whereas AI algorithms allow them to perform more complex tasks. Thereby, making them suitable for our Humanoid project.
 
   
-
 # My Roadmap:
 
 > “*A year spent in artificial intelligence is enough to make one believe in God.*” — Alan Perlis
@@ -67,7 +65,7 @@ After done researching, I reached the following conclusion:
 
 ### Resources gathering:
 - To tackle Artificial intelligence problem, I decided to develop my own AI which I already been working on, known as [**Matson AI**](https://sites.google.com/view/matson-ai/home), a python language-based human alike artificial intelligence derived from [**Naomi Project**](https://github.com/NaomiProject/Naomi). It can see(Deep Vision), talk, hear, recognize its environment through its sensors. It is made exclusively for raspberry pi and is created in the first place so as to able to embed it on any existing system/hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending required control signals.
-- Further, I decided to adopt an open-sourced Humanoid design called [**InMoov Humanoid**](http://inmoov.fr) developed by _Gaël Langevin_, and planned to further develop/innovate its parts according to my Humanoid needs. It gave me idea and direction, which tends to make my job of designing humanoid way easier.
+- Further, I decided to adopt an open-sourced Humanoid design called [**InMoov Humanoid**](http://inmoov.fr) developed by _Gaël Langevin_ and planned to further develop/innovate its parts according to my Humanoid needs. It gave me idea and direction, which tends to make my job of designing humanoid way easier.
 
 These are my initial thoughts, for developing my Humanoid. Through this research, I'll be able to study various aspects of inventing/developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots, and Artificial-Intelligence in order to help to shape our future.
 
