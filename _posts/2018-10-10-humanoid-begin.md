@@ -69,7 +69,7 @@ After done researching, I reached the following conclusion:
 - To tackle Artificial intelligence problem, I decided to develop my own AI which I already been working on, known as [**Matson AI**](https://sites.google.com/view/matson-ai/home), a python language-based human alike artificial intelligence derived from [**Naomi Project**](https://github.com/NaomiProject/Naomi). It can see(Deep Vision), talk, hear, recognize its environment through its sensors. It is made exclusively for raspberry pi and is created in the first place so as to able to embed it on any existing system/hardware that requires onboard intelligence on the go. So, I decided to develop it further for my Humanoid and gave it the ability to manipulate its environment(through servos and motors) by sending required control signals.
 - Further, I decided to adopt an open-sourced Humanoid design called [**InMoov Humanoid**](http://inmoov.fr) developed by _Gaël Langevin_, and planned to further develop/innovate its parts according to my Humanoid needs. It gave me idea and direction, which tends to make my job of designing humanoid way easier.
 
-These are my initial roadmap, for developing my Humanoid. Through this research, I'll study various aspects of inventing/developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots, and Artificial-Intelligence in order to help to shape our future.
+These are my initial thoughts, for developing my Humanoid. Through this research, I'll be able to study various aspects of inventing/developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots, and Artificial-Intelligence in order to help to shape our future.
 
 ---
 

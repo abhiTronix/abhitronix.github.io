@@ -34,7 +34,7 @@ Isn't that amazing!
 
 > "We're fascinated with robots because they are reflections of ourselves." - Ken Goldberg
 
-No doubt, Eye is one of the most complex parts of the human body, Therefore I went on a quest to experiment various designs and research papers and finally came up something totally distinct but unique solution i.e. AEAM a.k.a Advanced Eyes Articulate Mechanism.
+No doubt, Eye is one of the most complex parts of the human body, Therefore I went on a quest to experiment various designs and research papers and finally came up something totally distinct but unique solution i.e. **AEAM** *a.k.a* **Advanced Eyes Articulate Mechanism**.
 But the initial design wasn't practical and lacks on many things, and this post and upcoming posts will show various changes/fixes and design innovations I made on the way to come up with a final design. 
 
 ### Initial Design:
@@ -56,8 +56,8 @@ and I preferred my own control mechanism and the controlling is done by:
 
 ### Working and Testing:
 * The initial design was controlled by 4 servos([**Tower Pro Sg90**](http://www.towerpro.com.tw/product/sg90-7/), in my case), the 2-2 servos on either side of the eyes provides flexible up-down and left-right motion capabilities to each eye respectively.
-  * The controlling of these servos is done explicitly through [**Adafruit PCA9685 16-Channel Servo Driver**](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all) which can drive up to 16 servos over **I2C** with only 2 pins.  The onboard PWM controller will drive all 16 channels simultaneously with no additional Arduino processing overhead. 
-    * This driver talks to the [**Arduino Uno**](https://store.arduino.cc/usa/arduino-uno-rev3)(a microcontroller board based on the ATmega328P) which act as the brain, over **I2C** protocol with only 2 pins. *What's more, you can chain up to 62 of them to control up to 992 servos - all with the same 2 pins!*
+  * The controlling of these servos is done explicitly through [**Adafruit PCA9685 16-Channel Servo Driver**](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all) which can drive up to 16 servos over [**I2C**](https://www.elprocus.com/i2c-bus-protocol-tutorial-interface-applications/)  with only 2 pins.  The onboard PWM controller will drive all 16 channels simultaneously with no additional Arduino processing overhead. 
+    * This driver talks to the [**Arduino Uno**](https://store.arduino.cc/usa/arduino-uno-rev3)(a microcontroller board based on the ATmega328P) which act as the brain, over [**I2C**](https://www.elprocus.com/i2c-bus-protocol-tutorial-interface-applications/)  protocol with only 2 pins. *What's more, you can chain up to 62 of them to control up to 992 servos - all with the same 2 pins!*
 * Anyways, the 4x servos initial was controlled directly with the servos rotational force, But I modified this design with a pull-push mechanism which is accomplished by nylon thread and carefully bent rods, which converts rotational motion of the servos into translational motion. 
 * These Robotics eyes are embedded with tiny cameras(like [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html)), That provides human retina like seeing capabilities.
 
