@@ -24,7 +24,7 @@ In continuation of my previous post of developing a unique Robotic Advanced Eyes
  made to original design on the way to come up with a final robust design. So let's get to it without wasting time!
 
 # My Thoughts:
-![](/img/in-post/manav/AEAM-2-1.jpg)
+![](/img/in-post/manav/AEAM-2-1.jpeg)
 > "Do you wonder, How do robots “see”, respond to and learn from their interactions with the world around them?"  
 
 Well, This is the fascinating field of visual intelligence, allows a robot to “*sense*” and “*recognize*” the surrounding environment. It also enables a robot to “learn” from the memory of past experiences by extracting patterns in visual signals.
@@ -65,7 +65,7 @@ The proposed Ball detection and tracking architecture follow as:
 
 ### B. Control Flow:  
 ![](/img/in-post/manav/AEAM-2-3.jpg)
-The control System acts as **Artificially Intelligent Robot**, where Both Hardware and Software aspects work in harmony to produce desirable results, which can be summarized as follows:
+The control System acts as **Artificially Intelligent Robot**, where both Robotics and Computer Vision aspects work in harmony to produce desirable results, which can be summarized as follows:
 1. **Processing and Command Generation:** In this stage, the Raspberry Pi's python program generate a special set of commands in response to values generated in the previous step, and feedback received from the [**Arduino**](https://store.arduino.cc/usa/arduino-uno-rev3). These commands are user-defined and hardware specific strings generated in python that a [**Arduino**](https://store.arduino.cc/usa/arduino-uno-rev3) is able to understand. 
 2. **Transmission:** In this stage, Raspberry Pi communicate with [**Arduino**](https://store.arduino.cc/usa/arduino-uno-rev3) over the Bluetooth channel, where Raspberry Pi's inbuilt Bluetooth communicate with [**HC-05**](https://wiki.eprolabs.com/index.php?title=Bluetooth_Module_HC-05)  Bluetooth module. The [**HC-05**](https://wiki.eprolabs.com/index.php?title=Bluetooth_Module_HC-05)  module then serially transfer te data recieved from Raspberry Pi to the [**Arduino**](https://store.arduino.cc/usa/arduino-uno-rev3) pins.
 3. **Signal generation and Motion:** In response to the serial data received by [**Arduino**](https://store.arduino.cc/usa/arduino-uno-rev3), it start [**I2C**](https://www.elprocus.com/i2c-bus-protocol-tutorial-interface-applications/)  protocol with [**Adafruit PCA9685 16-Channel Servo Driver**](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all). The module generates the required PWM signal which makes Servo move. So according to pulse width and time period of the PWM signal, the Servo start to rotate clock/counter-clockwise generating require rotational motion
@@ -75,9 +75,9 @@ The control System acts as **Artificially Intelligent Robot**, where Both Hardwa
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1efCJBKpQ1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 From this video, We can observe that:
-- The Field of View(FoV) is very narrow/limited.
-- Low quality video and more false positive detection
-- Jitteriness at the output 	
+* The Field of View(FoV) is very narrow/limited.
+* Low quality video and more false positive detection
+* Jitteriness at the output 	
 
 # Reworked Field of View(FoV):
 In the initial approach(as discussed above), I narrowed the Field of View(FoV) of AEAM to limit divers kinematics's distortions which are caused by false positive results in the low-quality video received from [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html). It was a temporary but not practical solution to this problem. So I ran a number of experiments and came up with the following solutions:
