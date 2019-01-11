@@ -30,6 +30,8 @@ In continuation of my previous post of developing a unique Robotic Advanced Eyes
 Well, This is the fascinating field of visual intelligence, allows a robot to “*sense*” and “*recognize*” the surrounding environment. It also enables a robot to “learn” from the memory of past experiences by extracting patterns in visual signals.
 It involves extracting statistically meaningful patterns in data that support classification, regression, and clustering. Then with the help of studying Computer Vision and Machine Learning together, we could build a recognition algorithm that can learn from data and adapt to new environments.
  So, We will be utilizing dlib, [**OpenCV**](https://github.com/abhiTronix/OpenCV_Raspberry_pi_TBB) and Other awesome Computer Vision & Machine learning and will implement real examples of video stabilization, recognition of 3D objects, coding a classifier for objects in our Humanoid Deep Vision.
+ 
+---
 
 # Deep Vision integration:
 
@@ -77,7 +79,9 @@ The control System acts as **Artificially Intelligent Robot**, where both Roboti
 From this video, We can observe that:
 * The Field of View(FoV) is very narrow/limited.
 * Low quality video and more false positive detection
-* Jitteriness at the output 	
+* Jitteriness at the output  
+
+---
 
 # Reworked Field of View(FoV):
 In the initial approach(as discussed above), I narrowed the Field of View(FoV) of AEAM to limit divers kinematics's distortions which are caused by false positive results in the low-quality video received from [**FPV Cameras**](https://www.getfpv.com/fpv/cameras.html). It was a temporary but not practical solution to this problem. So I ran a number of experiments and came up with the following solutions:
