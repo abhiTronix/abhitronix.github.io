@@ -13,6 +13,7 @@ tags:
   - Detection
   - Tracking
   - Artificial Intelligence
+  
 ---
 
 Update: 12 November 2018
@@ -23,7 +24,6 @@ In continuation of my previous post of developing a unique Robotic Advanced Eyes
  made to original design on the way to come up with a final robust design. So let's get to it without wasting time!
 
 # My Thoughts:
-
 ![](/img/in-post/manav/AEAM-2-1.jpg)
 
 > "Do you wonder, How do robots “see”, respond to and learn from their interactions with the world around them?"  
