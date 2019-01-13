@@ -2527,6 +2527,8 @@ output {
   line-height: 1.42857143;
   color: #555;
 }
+img + em { display: block; text-align: center;}
+iframe + em { display: block; text-align: center;}
 .form-control {
   display: block;
   width: 100%;
