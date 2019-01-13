@@ -18,7 +18,7 @@ Update: 30 November 2018
 
 ---
 
-This is the final post of AEAM and Today I'm going to discuss the video stabilization methods that I implemented in my AEAM Design to eliminate various jitters and distortions. These methods are implemented from scratch by utilizing OpenCV only. So let's begin!
+This is the final post of [**AEAM**](https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/#designing) and Today I'm going to discuss the video stabilization methods that I implemented in my [**AEAM**](https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/#designing) Design to eliminate various jitters and distortions. These methods are implemented from scratch by utilizing OpenCV only. So let's begin!
 
 # Video Stabilization:
 
@@ -33,7 +33,7 @@ Video stabilization refers to a family of methods used to reduce the blurring & 
 
 
 ### My Approach:
-A few days back, I experienced high-frequency jitteriness at the output of my AEAM's Output. The vibrations due to motion in the cameras/Servos/platform that was causing tracked features to get lost on the way and thus resulting in false-positive movement of eyes. There are many technics to overcome it, such as special hardware gears and software(e.g Sony Vegas Pro), But even though there are commercial hardware components that could stabilize the image, they are relatively redundant and not handy for daily use. Also due to limited space, low memory, and open-source considerations, I utilized my favorite OpenCV Computer Vision for this purpose.
+A few days back, I experienced high-frequency jitteriness at the output of my [**AEAM**](https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/#designing)'s Output. The vibrations due to motion in the cameras/Servos/platform that was causing tracked features to get lost on the way and thus resulting in false-positive movement of eyes. There are many technics to overcome it, such as special hardware gears and software(e.g [Sony Vegas Pro](https://www.vegascreativesoftware.com/)), But even though there are commercial hardware components that could stabilize the image, they are relatively redundant and not handy for daily use. Also due to limited space, low memory, and open-source considerations, I utilized my favorite OpenCV Computer Vision for this purpose.
 
 ### Resource Gathering:
 So, In order to implement Video Stabilization in OpenCV, I studied & experimented various methods published in various research papers and selected two of them for benchmarking, Since they're more OpenCV friendly and properly documented, the rest of them. Those methods are followed:
@@ -89,9 +89,9 @@ This method purposes an efficient video denoising approach that produces stabili
 
 #### Meshflow model:
 ![](/img/in-post/manav/AEAM-3-5.png)*Meshflow model*
-The MeshFlow is a spatial smooth sparse motion field with motion vectors only at the mesh vertexes. The MeshFlow is produced by assigning each vertex a unique motion vector via two median filters. The path smoothing is conducted on the vertex profiles, which are motion vectors collected at the same vertex location in the MeshFlow over time. The profiles are smoothed adaptively by a novel smoothing technique, namely the Predicted Adaptive Path Smoothing (*PAPS*), which only uses motions from the past. It is calculated by the following methods:
+The MeshFlow is a spatial smooth sparse motion field with motion vectors only at the mesh vertexes. The MeshFlow is produced by assigning each vertex a unique motion vector via two [median filters](https://en.wikipedia.org/wiki/Median_filter). The path smoothing is conducted on the vertex profiles, which are motion vectors collected at the same vertex location in the MeshFlow over time. The profiles are smoothed adaptively by a novel smoothing technique, namely the Predicted Adaptive Path Smoothing (*PAPS*), which only uses motions from the past. It is calculated by the following methods:
 
-* Features Extraction: involve FAST frame feature extraction and track them by KLT to the adjacent frame.
+* Features Extraction: involve [FAST](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_fast/py_fast.html)(*Used in our case*) frame feature detector and track them by KLT(https://docs.opencv.org/3.3.1/d7/d8b/tutorial_py_lucas_kanade.html) (*Optical Flow*) to the adjacent frame.
 * Motion Propagation: Each matched pair of features yields a motion vector, *i.e.* calculates motions between a current frame and its previous
 frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such that the expensive optical flow can be replaced with cheap feature matches. For one thing, they are similar because they both encode strong spatial smoothness. For another, they are different as one is dense and the other is sparse. Moreover, the motion estimation methods are totally different. Next, we show an estimation of spacial coherent motions at mesh vertexes.
 ![](/img/in-post/manav/AEAM-3-6.png)
@@ -103,7 +103,7 @@ frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such 
 - **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
 
 #### Meshflow Denoising:
-Typically, there are two challenges with respect to practical  video denoising, *i.e.*, the camera motion compensation and the handling of outliers during the temporal pixels fusing. The former refers to the image registration between adjacent video frames. As the camera is not stationary during the capturing, accurate motion estimations can increase the performance of various applications, such as the HDR, the video deblurring and the video stabilization. The latter can suppress the artifacts (e.g., ghosting) introduced by misalignments, which may be caused by various reasons, including
+Typically, there are two challenges with respect to practical  video denoising, *i.e.*, the camera motion compensation and the handling of outliers during the temporal pixels fusing. The former refers to the image registration between adjacent video frames. As the camera is not stationary during the capturing, accurate motion estimations can increase the performance of various applications, such as the HDR, the video deblurring and the video stabilization. The latter can suppress the artifacts (*e.g.*, ghosting) introduced by misalignments, which may be caused by various reasons, including
 dynamic objects, occlusions and insufficient descriptions of the motion model (e.g., a single homography). 
 
 
@@ -113,7 +113,7 @@ The denoising(*stabilizing*) process can be generalized as follows:
 * For a given input noisy video, we estimate the meshflow(discussed above) between adjacent frames.
 * To denoise a frame, we move a temporal window along the video with a set of frames(radius). 
 * Frames within the window are warped towards the central frame according to the estimated motions by the meshflow. 
-* With all the frames aligned to the central frame within the local window, we fuse them to denoise the central frame. The fusing includes the identification of outlier pixels and its rejection(fitting a global homography model by RANSAC). 
+* With all the frames aligned to the central frame within the local window, we fuse them to denoise the central frame. The fusing includes the identification of outlier pixels and its rejection(fitting a global homography model by [RANSAC](https://en.wikipedia.org/wiki/Random_sample_consensus)). 
 * The window is moved forward by one frame at each time and the video is denoised frame by frame and this cycle continues.
 
 #### Result:
@@ -121,7 +121,7 @@ The denoising(*stabilizing*) process can be generalized as follows:
 <p align="center" style="font-size: 13px; font-style:bold;">MeshFlow Controlled Video Stabilization in OpenCV</p>
 
 
-Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to YouTube 's State-of-the-art Algorithm**.
+Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to [YouTube's State-of-the-art Algorithm](https://ai.googleblog.com/2012/05/video-stabilization-on-youtube.html)**.
 
 #### Cons and Pros:
 Through a number of precisely calculated experiments, I concluded:
@@ -135,7 +135,7 @@ Through a number of precisely calculated experiments, I concluded:
   * This method is also non-ideal for real-time performance
 
 ### Conclusion: 
-Through these experimental methods, I recreated two Video Stabilizer algorithms from scratch in OpenCV, that demonstrate a solution to correct the rolling shutter distortions in videos recorded by hand-held devices(as shown in the video) & robotics (such as in Quadcopter, UAVs) etc. Both have their pros and cons, therefore can be used to stabilize videos(AEAM output in my case) and thus finally we are able to create a robust AEAM Design.
+Through these experimental methods, I recreated two Video Stabilizer algorithms from scratch in OpenCV, that demonstrate a solution to correct the rolling shutter distortions in videos recorded by hand-held devices(as shown in the video) & robotics (such as in Quadcopter, UAVs) etc. Both have their pros and cons, therefore can be used to stabilize videos([**AEAM**](https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/#designing) output in my case) and thus finally we are able to create a robust [**AEAM**](https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/#designing) Design.
 
 ---
 
