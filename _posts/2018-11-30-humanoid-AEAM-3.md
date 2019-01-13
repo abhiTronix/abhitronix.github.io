@@ -121,7 +121,7 @@ The denoising(*stabilizing*) process can be generalized as follows:
 <p align="center" style="font-size: 13px; font-style:bold;">MeshFlow Controlled Video Stabilization in OpenCV</p>
 
 
-Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to YouTube 's State-of-art Algorithm**.
+Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to YouTube 's State-of-the-art Algorithm**.
 
 #### Cons and Pros:
 Through a number of precisely calculated experiments, I concluded:
