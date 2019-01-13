@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced Eyes Articulate Mechanism(AEAM)"
+title: "Advanced Eyes Articulate Mechanism(AEAM)-1"
 subtitle: 'Part-1: Designing, Testing, Modifications and Kinematics Synchronization'
 author: "abhiTronix"
 header-img: "img/AEAM-bg.jpg"

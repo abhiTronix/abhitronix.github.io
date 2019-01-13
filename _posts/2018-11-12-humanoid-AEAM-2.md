@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced Eyes Articulate Mechanism(AEAM)"
+title: "Advanced Eyes Articulate Mechanism(AEAM)-2"
 subtitle: 'Part-2: Deep Vision integration and Revamping Field of View(FoV)'
 author: "abhiTronix"
 header-img: "img/AEAM-2-bg.jpg"

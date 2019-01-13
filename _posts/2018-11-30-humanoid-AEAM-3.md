@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced Eyes Articulate Mechanism(AEAM)"
+title: "Advanced Eyes Articulate Mechanism(AEAM)-3"
 subtitle: 'Part-3: Video Stabilization Implementation'
 author: "abhiTronix"
 header-img: "img/AEAM-3-bg.jpg"
@@ -132,7 +132,7 @@ Through a number of precisely calculated experiments, I concluded:
   * This method can possibly outperform or produce comparable results against any existing commercial stabilizer software in the market in term of quality.
 * Cons:
   * This method requires very high computational power to work therefore non-ideal for the raspberry pi.
-  * This method is non-ideal for real-time performance
+  * This method is also non-ideal for real-time performance
 
 ### Conclusion: 
 Through these experimental methods, I recreated two Video Stabilizer algorithms from scratch in OpenCV, that demonstrate a solution to correct the rolling shutter distortions in videos recorded by hand-held devices(as shown in the video) & robotics (such as in Quadcopter, UAVs) etc. Both have their pros and cons, therefore can be used to stabilize videos(AEAM output in my case) and thus finally we are able to create a robust AEAM Design.
