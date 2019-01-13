@@ -1105,8 +1105,6 @@ samp {
     font-size: 20px;
   }
 }
-img + em { display: block; text-align: center;}
-iframe + em { display: block; text-align: center;}
 .intro-header .header-img-credit {
   position: absolute;
   bottom: 6px;
