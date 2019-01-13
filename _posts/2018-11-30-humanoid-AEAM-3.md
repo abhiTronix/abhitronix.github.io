@@ -27,6 +27,7 @@ This is the final post of AEAM and Today I'm going to discuss the video stabiliz
 ### A Brief Insight:
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/ATOrwKoREuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *YouTube State of the art stabilizer*
 
 Video stabilization refers to a family of methods used to reduce the blurring & distortion associated with the motion of the camera. In other words, it compensates for any angular movement, equivalent to yaw, pitch, roll, and x and y translations of the camera. A related problem common in videos shot from mobile phones. The camera sensors in these phones contain what is known as an electronic rolling shutter. When taking a picture with a rolling shutter camera, the image is not captured instantaneously. Instead, the camera captures the image one row of pixels at a time, with a small delay when going from one row to the next. Consequently, if the camera moves during capture, it will cause image distortions ranging from shear in the case of low-frequency motions (for instance an image captured from a drone) to wobbly distortions in the case of high-frequency perturbations (think of a person walking while recording video). These distortions are especially noticeable in videos where the camera shake is independent across frames. The ability to locate, identify, track and stabilize objects at different poses and backgrounds is important in many real-time video applications. Object detection, tracking, alignment, and stabilization have been a research area of great interest in computer vision and pattern recognition due to the challenging nature of some slightly different objects such as faces, where algorithms should be precise enough to identify, track and focus one individual from the rest.
@@ -65,6 +66,7 @@ This method tracks the salient feature array of frames and uses this as an ancho
 #### Result:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwlbixEG0Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization output*
 
 Hence from the resultant stabilized video is as above, depicting the successful implementation of this method in both recorded Video and Real-time application. The graphs shown at the end, in the video is as follows:
@@ -102,11 +104,11 @@ frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such 
 ![](/img/in-post/manav/AEAM-3-6.png)
 ![](/img/in-post/manav/AEAM-3-7.png)
 *Median Filters f1 & f2*
-* **Median Filters:** Each mesh vertex should only have one unique motion vector, which is picked from the motion candidates at each vertex by a median filter. Another median filter is applied spatially to reject motion outliers caused by mismatched features and dynamic objects.
-* **Motions Accumulation:** In this approach, the pixel profile collects motion vectors at a fixed spatial location along the time. The motions at the pixel-profile is a very good approximation of the corresponding motion track.
+- **Median Filters:** Each mesh vertex should only have one unique motion vector, which is picked from the motion candidates at each vertex by a median filter. Another median filter is applied spatially to reject motion outliers caused by mismatched features and dynamic objects.
+- **Motions Accumulation:** In this approach, the pixel profile collects motion vectors at a fixed spatial location along the time. The motions at the pixel-profile is a very good approximation of the corresponding motion track.
 ![](/img/in-post/manav/AEAM-3-8.png)
 *Predicted Adaptive Path Smoothing (PAPS)*
-* **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
+- **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
 
 #### Meshflow Denoising:
 Typically, there are two challenges with respect to practical  video denoising, *i.e.*, the camera motion compensation and the handling of outliers during the temporal pixels fusing. The former refers to the image registration between adjacent video frames. As the camera is not stationary during the capturing, accurate motion estimations can increase the performance of various applications, such as the HDR, the video deblurring and the video stabilization. The latter can suppress the artifacts (e.g., ghosting) introduced by misalignments, which may be caused by various reasons, including
@@ -125,6 +127,7 @@ The denoising(*stabilizing*) process can be generalized as follows:
 
 #### Result:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/38yuHg_DSuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization output*
 
 Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to YouTube 's State-of-art Algorithm**.
