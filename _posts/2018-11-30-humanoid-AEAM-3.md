@@ -26,7 +26,7 @@ This is the final post of AEAM and Today I'm going to discuss the video stabiliz
 
 ### A Brief Insight:
 
-| <iframe width="480" height="360" src="https://www.youtube.com/embed/ATOrwKoREuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+<iframe width="480" height="360" src="https://www.youtube.com/embed/ATOrwKoREuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 |:--:| 
 | *YouTube State of the art stabilizer* |
 
@@ -45,32 +45,32 @@ The first method is already been implemented in Matlab [here](https://www.mathwo
 
 ### 1. Video Stabilization Using Point Feature Matching:
 
-|<iframe width="560" height="315" src="https://www.youtube.com/embed/lLuQhXBtS7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>| 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lLuQhXBtS7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 |:--:| 
 | *Video Stabilization Using Point Feature Matching* |
 
 This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method only works for the fixed length only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
-|![](/img/in-post/manav/AEAM-3.png)|
+| ![](/img/in-post/manav/AEAM-3.png) |
 |:--:| 
 | *Video Stabilization algorithm* |
 1. Find the affine transformation from previous to current frame using optical flow for a set of frames(*collected in a Frame queue*). The transformation only consists of three parameters: dx(*deviation in x-direction*), my(*deviation in y-direction*), da(*deviation in angle*).
-|![](/img/in-post/manav/AEAM-3-0.png)|
+| ![](/img/in-post/manav/AEAM-3-0.png) |
 |:--:| 
 | *Feature Points in Frame A and B* |
 2. Accumulate these transformations to estimate trajectory for x, y, angle for the given queue.
-|![](/img/in-post/manav/AEAM-3-1.png)|
+| ![](/img/in-post/manav/AEAM-3-1.png) |
 |:--:| 
 | *Correspondences Between Frames A and B* |
 3. Smooth out the trajectory using a *Sliding Average Window*. The larger the value of Sliding Average Window, more stable will be the output, but will be less reactive to sudden panning. 
 4. Create a new transformation such that, it is the sum of the current frame's transformation and difference of estimated smoothed trajectory and original trajectory. 
-|![](/img/in-post/manav/AEAM-3-2.png)|
+| ![](/img/in-post/manav/AEAM-3-2.png) |
 |:--:| 
 | *New transformation applied* |
 5. Apply this new transformation to the current frames(*warping*) and save current frame and its transformation in the frame queue and this cycle repeats.
 
 #### Result:
 
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/hwlbixEG0Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> | 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hwlbixEG0Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 |:--:| 
 | *MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization output* |
 
@@ -107,12 +107,12 @@ The MeshFlow is a spatial smooth sparse motion field with motion vectors only at
 * Features Extraction: involve FAST frame feature extraction and track them by KLT to the adjacent frame.
 * Motion Propagation: Each matched pair of features yields a motion vector, *i.e.* calculates motions between a current frame and its previous
 frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such that the expensive optical flow can be replaced with cheap feature matches. For one thing, they are similar because they both encode strong spatial smoothness. For another, they are different as one is dense and the other is sparse. Moreover, the motion estimation methods are totally different. Next, we show an estimation of spacial coherent motions at mesh vertexes.
-|![](/img/in-post/manav/AEAM-3-6.png)|![](/img/in-post/manav/AEAM-3-7.png)| 
+| ![](/img/in-post/manav/AEAM-3-6.png) | ![](/img/in-post/manav/AEAM-3-7.png) | 
 |:--:| 
 | *Median Filters f1 & f2* |
 * **Median Filters:** Each mesh vertex should only have one unique motion vector, which is picked from the motion candidates at each vertex by a median filter. Another median filter is applied spatially to reject motion outliers caused by mismatched features and dynamic objects.
 * **Motions Accumulation:** In this approach, the pixel profile collects motion vectors at a fixed spatial location along the time. The motions at the pixel-profile is a very good approximation of the corresponding motion track.
-|![](/img/in-post/manav/AEAM-3-8.png)| 
+| ![](/img/in-post/manav/AEAM-3-8.png) | 
 |:--:| 
 | *Predicted Adaptive Path Smoothing (PAPS)* |
 * **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
@@ -124,7 +124,7 @@ dynamic objects, occlusions and insufficient descriptions of the motion model (e
 
 
 The denoising(*stabilizing*) process can be generalized as follows:
-|[](/img/in-post/manav/AEAM-3-4.jpg)| 
+| ![](/img/in-post/manav/AEAM-3-4.jpg) | 
 |:--:| 
 | *MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization* |
 * For a given input noisy video, we estimate the meshflow(discussed above) between adjacent frames.
