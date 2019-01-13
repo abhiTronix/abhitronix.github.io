@@ -27,7 +27,7 @@ This is the final post of AEAM and Today I'm going to discuss the video stabiliz
 ### A Brief Insight:
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/ATOrwKoREuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{:.image-caption}*YouTube State of the art stabilizer*
+*YouTube State of the art stabilizer*
 
 Video stabilization refers to a family of methods used to reduce the blurring & distortion associated with the motion of the camera. In other words, it compensates for any angular movement, equivalent to yaw, pitch, roll, and x and y translations of the camera. A related problem common in videos shot from mobile phones. The camera sensors in these phones contain what is known as an electronic rolling shutter. When taking a picture with a rolling shutter camera, the image is not captured instantaneously. Instead, the camera captures the image one row of pixels at a time, with a small delay when going from one row to the next. Consequently, if the camera moves during capture, it will cause image distortions ranging from shear in the case of low-frequency motions (for instance an image captured from a drone) to wobbly distortions in the case of high-frequency perturbations (think of a person walking while recording video). These distortions are especially noticeable in videos where the camera shake is independent across frames. The ability to locate, identify, track and stabilize objects at different poses and backgrounds is important in many real-time video applications. Object detection, tracking, alignment, and stabilization have been a research area of great interest in computer vision and pattern recognition due to the challenging nature of some slightly different objects such as faces, where algorithms should be precise enough to identify, track and focus one individual from the rest.
 
@@ -45,21 +45,21 @@ The first method is already been implemented in Matlab [here](https://www.mathwo
 ### 1. Video Stabilization Using Point Feature Matching:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLuQhXBtS7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{:.image-caption}*Video Stabilization Using Point Feature Matching*
+*Video Stabilization Using Point Feature Matching*
 
 This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method only works for the fixed length only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
 ![](/img/in-post/manav/AEAM-3.png)
-{:.image-caption}*Video Stabilization algorithm*
+*Video Stabilization algorithm*
 1. Find the affine transformation from previous to current frame using optical flow for a set of frames(*collected in a Frame queue*). The transformation only consists of three parameters: dx(*deviation in x-direction*), my(*deviation in y-direction*), da(*deviation in angle*).
 ![](/img/in-post/manav/AEAM-3-0.png)
-{:.image-caption}*Feature Points in Frame A and B*
+*Feature Points in Frame A and B*
 2. Accumulate these transformations to estimate trajectory for x, y, angle for the given queue.
 ![](/img/in-post/manav/AEAM-3-1.png)
-{:.image-caption}*Correspondences Between Frames A and B*
+*Correspondences Between Frames A and B*
 3. Smooth out the trajectory using a *Sliding Average Window*. The larger the value of Sliding Average Window, more stable will be the output, but will be less reactive to sudden panning. 
 4. Create a new transformation such that, it is the sum of the current frame's transformation and difference of estimated smoothed trajectory and original trajectory. 
 ![](/img/in-post/manav/AEAM-3-2.png) 
-{:.image-caption}*New transformation applied*
+*New transformation applied*
 5. Apply this new transformation to the current frames(*warping*) and save current frame and its transformation in the frame queue and this cycle repeats.
 
 #### Result:
@@ -94,7 +94,7 @@ This method purposes an efficient video denoising approach that produces stabili
 
 #### Meshflow model:
 | ![](/img/in-post/manav/AEAM-3-5.png) 
-{:.image-caption}*Meshflow model*
+*Meshflow model*
 The MeshFlow is a spatial smooth sparse motion field with motion vectors only at the mesh vertexes. The MeshFlow is produced by assigning each vertex a unique motion vector via two median filters. The path smoothing is conducted on the vertex profiles, which are motion vectors collected at the same vertex location in the MeshFlow over time. The profiles are smoothed adaptively by a novel smoothing technique, namely the Predicted Adaptive Path Smoothing (*PAPS*), which only uses motions from the past. It is calculated by the following methods:
 
 * Features Extraction: involve FAST frame feature extraction and track them by KLT to the adjacent frame.
@@ -102,11 +102,11 @@ The MeshFlow is a spatial smooth sparse motion field with motion vectors only at
 frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such that the expensive optical flow can be replaced with cheap feature matches. For one thing, they are similar because they both encode strong spatial smoothness. For another, they are different as one is dense and the other is sparse. Moreover, the motion estimation methods are totally different. Next, we show an estimation of spacial coherent motions at mesh vertexes.
 ![](/img/in-post/manav/AEAM-3-6.png)
 ![](/img/in-post/manav/AEAM-3-7.png)
-{:.image-caption}*Median Filters f1 & f2*
+*Median Filters f1 & f2*
 * **Median Filters:** Each mesh vertex should only have one unique motion vector, which is picked from the motion candidates at each vertex by a median filter. Another median filter is applied spatially to reject motion outliers caused by mismatched features and dynamic objects.
 * **Motions Accumulation:** In this approach, the pixel profile collects motion vectors at a fixed spatial location along the time. The motions at the pixel-profile is a very good approximation of the corresponding motion track.
 ![](/img/in-post/manav/AEAM-3-8.png)
-{:.image-caption}*Predicted Adaptive Path Smoothing (PAPS)*
+*Predicted Adaptive Path Smoothing (PAPS)*
 * **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
 
 #### Meshflow Denoising:
@@ -117,7 +117,7 @@ dynamic objects, occlusions and insufficient descriptions of the motion model (e
 
 The denoising(*stabilizing*) process can be generalized as follows:
 ![](/img/in-post/manav/AEAM-3-4.jpg)
-{:.image-caption}*MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization*
+*MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization*
 * For a given input noisy video, we estimate the meshflow(discussed above) between adjacent frames.
 * To denoise a frame, we move a temporal window along the video with a set of frames(radius). 
 * Frames within the window are warped towards the central frame according to the estimated motions by the meshflow. 
@@ -126,7 +126,7 @@ The denoising(*stabilizing*) process can be generalized as follows:
 
 #### Result:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/38yuHg_DSuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{:.image-caption}*MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization output*
+*MeshFlow Controlled Predicted Adaptive Path (PAPs) based Video Stabilization output*
 
 Hence as demonstrated in the video, a solution to correct the rolling shutter distortions and stabilize wobbly distortions in the case of High-Frequency perturbations is implemented successfully and the **performance is comparable to YouTube 's State-of-art Algorithm**.
 
