@@ -624,7 +624,7 @@ br + small.img-hint {
 img.shadow {
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-img + em { display: block; text-align: center; margin-top: 5px; margin-bottom: 7px; font-size: 14px; font-style:italic;}
+img + em { display: block; text-align: center; margin-top: 5px; margin-bottom: 7px; font-size: 13px; font-style:italic bold;}
 select {
   -webkit-appearance: none;
   margin-top: 15px;
