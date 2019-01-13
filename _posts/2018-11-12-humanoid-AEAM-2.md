@@ -35,7 +35,7 @@ It involves extracting statistically meaningful patterns in data that support cl
 
 # Deep Vision integration:
 
-> “Artificial intelligence is growing up fast, as are robots whose facial expressions can elicit empathy and make your mirror neurons quiver.” —Diane Ackerman
+> “AI winters were not due to imagination traps, but due to lack of imaginations. Imaginations bring order out of chaos. Deep learning with deep imagination is the road map to AI springs and AI autumns.” ― Amit Ray
 
 Computer vision is an interdisciplinary scientific field that deals with how computers can be made to gain a  high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do.  
 
