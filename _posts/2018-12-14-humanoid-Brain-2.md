@@ -16,7 +16,7 @@ Update: 14 December 2018
 
 ---
 
-Today, I'm going to briefly discuss and solve some of the common confusion in Artifical Intelligence that *"Can "Artificial Intelligence", "Machine Learning" and "Deep Learning" terms be used interchangeably? Are these term similiar, related or totally different?"*. Let's find out!
+Today, I'm going to briefly discuss and solve one common confusion in Artifical Intelligence that *"Can "Artificial Intelligence", "Machine Learning" and "Deep Learning" terms be used interchangeably? Are these term similiar, related or totally different?"*. Let's find out!
 
 # Artificial Intelligence (AI) vs. Machine Learning (ML) vs. Deep Learning (DL): 
 
