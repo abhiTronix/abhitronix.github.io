@@ -65,7 +65,7 @@ In 1959, Arthur Samuel, one of the pioneers of machine learning, defined machine
 ### Deep Learning (DL):
 ![](/img/in-post/manav/brain-2-6.png)
 
-Deep learning is a subset of machine learning. Usually, when people use the term deep learning, they are referring to 8deep artificial neural networks, and somewhat less frequently to deep reinforcement learning*.
+Deep learning is a subset of machine learning. Usually, when people use the term deep learning, they are referring to deep artificial neural networks, and somewhat less frequently to deep reinforcement learning.
 
 
 *Deep artificial neural networks are a set of algorithms that have set new records in accuracy for many important problems, such as image recognition, sound recognition, recommender systems, etc.* For example, deep learning is part of DeepMind’s well-known AlphaGo algorithm, which beat the former world champion Lee Sedol at Go in early 2016.
