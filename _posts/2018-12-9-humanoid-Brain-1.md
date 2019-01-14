@@ -16,13 +16,13 @@ Update: 9 December 2018
 
 ---
 
-Today, I'm going to discuss *"what really an Artifical Intelligence is?"*, thereby debunking some popular Artifical Intelligence myths and nailing down the truth. So let's get to it!
+Today, I'm going to discuss *"what really an Artificial Intelligence is?"*, thereby debunking some popular Artificial Intelligence myths and nailing down the truth. So let's get to it!
 
 # Debunking the myths:
 
 ![](/img/in-post/manav/brain-1.jpg)
 
-Back in 2017, after finishing my graduation, I decided to pursue my dream of getting into currently emerging technology "Artifical Intelligence". But like most of us, I have no idea where to start, what to refer to and what not to. So I decided to gather all resources I can find related to Artifical Intelligence like ebooks, video lectures, tutorials, blogs *etc.* and started to bind everything together so that everything can make sense to me. But, after being in research now for a while, I concluded Artifical Intelligence isn't just what we all think it is, let's debunk some harsh Artifical Intelligence myths and dug some real truth. 
+Back in 2017, after finishing my graduation, I decided to pursue my dream of getting into currently emerging technology "Artificial Intelligence". But like most of us, I have no idea where to start, what to refer to and what not to. So I decided to gather all resources I can find related to Artificial Intelligence like ebooks, video lectures, tutorials, blogs *etc.* and started to bind everything together so that everything can make sense to me. But, after being in research now for a while, I concluded Artificial Intelligence isn't just what we all think it is, let's debunk some harsh Artificial Intelligence myths and dug some real truth. 
 
 
 Back when **SOPHIA THE ROBOT** first switched on, the world couldn’t get enough. It had a cheery personality, it joked with late-night hosts, it had facial expressions that echoed our own. Here it was, finally — a robot plucked straight out of science fiction, the closest thing to true artificial intelligence that we had ever seen. There’s no doubt that Sophia is an impressive piece of engineering. Hanson Robotics and SingularityNET equipped Sophia with sophisticated neural networks that give Sophia the ability to learn from people and to detect and mirror emotional responses, which makes it seem like the robot has a personality. But in reality, it didn’t take much to convince people of Sophia’s apparent humanity.
