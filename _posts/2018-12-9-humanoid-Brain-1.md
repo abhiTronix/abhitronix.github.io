@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design a Humanoid Brain-1"
+title: "Designing a Humanoid Brain-1"
 subtitle: 'Part-1: What Artificial Intelligence really Is?'
 author: "abhiTronix"
 header-img: "img/brain-bg-1.jpg"
