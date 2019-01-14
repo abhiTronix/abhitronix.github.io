@@ -3,7 +3,7 @@ layout: post
 title: "Designing a Humanoid Brain-2"
 subtitle: 'Part-2: Artificial Intelligence (AI) vs. Machine Learning (ML) vs. Deep Learning (DL)'
 author: "abhiTronix"
-header-img: "img/brain-bg-2.jpg"
+header-img: "img/brain-bg-2.jpeg"
 header-mask: 0.2
 tags:
   - Deep Learning
