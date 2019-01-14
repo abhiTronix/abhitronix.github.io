@@ -49,7 +49,7 @@ Take, for example, an **image captioning algorithm**. Everyone was very impresse
 ---
 
 # My Final Verdict: 
-The problem is when our present-day systems, which are so limited, are marketed and hyped up to the point that the public believes we have technology that we have no goddamn clue how to build.
+After All, this is all about making money. The problem is when our present-day systems, which are so limited, are marketed and hyped up to the point that the public believes we have technology that we have no goddamn clue how to build.
 
 > “I am frequently entertained to see the way my research takes on exaggerated proportions as it progresses through the media, But there are also websites that pick up those primary stories and report on the technology without a solid understanding of how it works. The whole thing is a bit like a game of ‘telephone’ — the technical details of the project get lost and the system begins to seem self-willed and almost magical. At some point, I almost don’t recognize my own research anymore.” - said Nancy Fulda, a computer scientist.
 
