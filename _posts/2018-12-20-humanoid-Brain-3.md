@@ -40,8 +40,9 @@ I also invented first [*OpenCV*](https://opencv.org/) compatible TBB *a.k.a.* [*
 Some of the real-time applications of **Matson** are as follows:
 ### 1. Real-time Single Object Detection And Classification:
 In this I combined two Deep-learning Algorithms in real-time namely:
-![](/img/in-post/manav/brain-3-3.png)Detection-a process of identification.  
-![](/img/in-post/manav/brain-3-4.png)Classification-categorization of the object based on a previously defined classes or types.  
+![](/img/in-post/manav/brain-3-3.png)*Detection-a process of identification.*
+![](/img/in-post/manav/brain-3-4.png)*Classification-categorization of the object based on a previously defined classes or types.*  
+
 While both methods are based on discernible properties of the object, classification could take arbitrary boundaries based on the problem domain and independent of detection. Unfortunately, you need hundreds of GBs of RAM to run a super complex supervised machine learning problem. Thankfully, there is something called “Transfer Learning” which enables us to use pre-trained models from other people by making small changes. So by utilizing pre-trained models in my AI and combine it with multiprocessing in python, I was able to achieve a decent rate on my [*Raspberry Pi*](https://www.raspberrypi.org/) as seen in the video below. The [*OpenCV*](https://opencv.org/) is used to retrieve frames
 <iframe width="563" height="317" src="https://www.youtube.com/embed/JfbYQujKexA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
