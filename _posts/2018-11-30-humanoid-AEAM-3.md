@@ -58,7 +58,7 @@ The first method is already been implemented in Matlab [here](https://www.mathwo
 
 This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method only works for the fixed length only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
 ![](/img/in-post/manav/AEAM-3.png)*Video Stabilization algorithm*
-1. Find the affine transformation from previous to current frame using optical flow for a set of frames(*collected in a Frame queue*). The transformation only consists of three parameters: dx(*deviation in x-direction*), my(*deviation in y-direction*), da(*deviation in angle*).
+1. Find the affine transformation from previous to current frame using optical flow for a set of frames(*collected in a Frame queue*). The transformation only consists of three parameters: dx(*deviation in x-direction*), dy(*deviation in y-direction*), da(*deviation in angle*).
 ![](/img/in-post/manav/AEAM-3-0.png)*Feature Points in Frame A and B*
 2. Accumulate these transformations to estimate trajectory for x, y, angle for the given queue.
 ![](/img/in-post/manav/AEAM-3-1.png)*Correspondences Between Frames A and B*
