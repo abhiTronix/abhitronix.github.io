@@ -45,7 +45,7 @@ The first method is already been implemented in Matlab [here](https://www.mathwo
 ### 1. Video Stabilization Using Point Feature Matching:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLuQhXBtS7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p align="center" style="font-size: 13px; font-style:bold;">Video Stabilization Using Point Feature Matching</p>
+<p align="center" style="font-size: 13px; font-style:bold;">Video Stabilization Using Point Feature Matching in OpenCV(Video)</p>
 
 This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method only works for the fixed length only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
 ![](/img/in-post/manav/AEAM-3.png)*Video Stabilization algorithm*
