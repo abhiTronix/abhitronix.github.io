@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design a Humanoid Brain-3"
+title: "Designing a Humanoid Brain-3"
 subtitle: 'Part-3: Introduction to Matson AI'
 author: "abhiTronix"
 header-img: "img/brain-bg-3.jpg"
