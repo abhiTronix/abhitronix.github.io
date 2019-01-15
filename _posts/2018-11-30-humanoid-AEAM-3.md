@@ -35,9 +35,9 @@ Video stabilization refers to a family of methods used to reduce the blurring & 
 Video Stabilization include mechanical, optical and digital stabilization methods to stabilize video. These are discussed briefly below:
 
 - **Mechanical Video Stabilization:** Mechanical image stabilization systems using the vibration feedback of the camera which is detected via special sensors like gyros accelerometers etc. In these methods, accelerometer and gyros sensors are used for motion detection and then the camera is moved against the movement.
-![](/img/in-post/manav/AEAM-3-0.jpg)*Camera with Mechanical Stabilizer*
+![](/img/in-post/manav/AEAM-3-9.jpg)*Camera with Mechanical Stabilizer*
 - **Optical Video Stabilization:** In this method, instead of moving the whole camera just the pieces of the lens glass move, which is the most effective one and employs a moveable lens assembly that variably adjusts the path length of the light as it travels through the camera’s lens system. The angle and speed of the camera shake are detected through gyro sensors.According to the movement direction of the entire lens, the select lens elements should be moved so the image passing through the lens can be steady and sharp when it hits the imaging sensor. Due to the downward movement of the camera the center of the image moves downward on the focal plane. Shifting the optical Image Stabilizer lens group downward, the light rays are refracted so that the image center returns to the center of the focal plane as shown below:
-![](/img/in-post/manav/AEAM-3-9.jpg)*Optical Image Stabilizer*
+![](/img/in-post/manav/AEAM-3-0.jpg)*Optical Image Stabilizer*
 - **Digital Video Stabilization:** In this method, algorithms contains three main steps including motion estimation, motion smoothing, and image composition. The transformation parameters between two consecutive frames are derived in the first stage. The second stage filters out the unwanted motion and in the last stage the stabilized video will be reconstructed.
 
 
