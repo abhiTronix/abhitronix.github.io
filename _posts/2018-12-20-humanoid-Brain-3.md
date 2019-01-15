@@ -38,7 +38,7 @@ I also invented first [*OpenCV*](https://opencv.org/) compatible TBB *a.k.a.* [*
 
 ## Applications:
 Some of the real-time applications of **Matson** are as follows:
-### Real-time Single Object Detection And Classification:
+### 1. Real-time Single Object Detection And Classification:
 In this I combined two Deep-learning Algorithms in real-time namely:
 ![](/img/in-post/manav/brain-3-3.png)Detection-a process of identification.
 ![](/img/in-post/manav/brain-3-4.png)Classification-categorization of the object based on a previously defined classes or types.
@@ -47,7 +47,7 @@ While both methods are based on discernible properties of the object, classifica
 <iframe width="563" height="317" src="https://www.youtube.com/embed/JfbYQujKexA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 
-### Real-time Face Detection And Recognition:
+### 2. Real-time Face Detection And Recognition:
 Involve hybrid of Deep-learning and Computer-Vision Algorithms in real-time namely:
 * **Face detection** - can be regarded as a specific case of object-class detection. Face-detection algorithms focus on the detection of frontal human faces. It is analogous to image detection in which the image of a person is matched bit by bit. Image matches with the image stored in database. Any facial feature changes in the database will invalidate the matching process.
 * **Facial recognition** - technology capable of identifying or verifying a person from a digital image or a video frame. It works by comparing selected facial features from the given image with faces within a database. Facial Features can be extracted using an amazing Deep learning library such as [**dlib**](http://dlib.net/). On the Labeled Faces in the Wild (LFW) dataset the [**dlib**](http://dlib.net/)'s network compares to other state-of-the-art methods, reaching 99.38% accuracy.
@@ -59,7 +59,7 @@ It produced the following results:
 
 
 
-# Real-time Hand Gestures Recognition:
+### 3. Real-time Hand Gestures Recognition:
 ![](/img/in-post/manav/brain-3-7.jpg)
 * Involve segmentation of foreground object from a cluttered background in real-time. Thus, the entire problem could be solved using 2 simple steps -
 * Find and segment the hand region from the video sequence.
@@ -69,14 +69,14 @@ The real-time video is as follows:
 
 
 
-# Real-time Pupil Detection And Tracking:
+### 4. Real-time Pupil Detection And Tracking:
 ![](/img/in-post/manav/brain-3-8.png)
 In this I utilize [**dlib**](http://dlib.net/)'s face landmark points to estimate the eye region. Then use the contrast caused by the white and dark regions of the eyeball, together with contours, to estimate the center of the pupil. The real-time results are as follows:
 
 <iframe width="563" height="317" src="https://www.youtube.com/embed/kYsCkaqmI9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
 
-# Real-time Multiple Objects Detection And Tracking:
+### 5. Real-time Multiple Objects Detection And Tracking:
 ![](/img/in-post/manav/brain-3-9.jpg)
 To accomplish our multi-object tracking task, we leveraged [*OpenCV*](https://opencv.org/)’s **cv2.MultiTracker_Create** function. This method allows us to instantiate single object trackers (as seen above) and then add them to a class that updates the locations of objects. For more info checkout this blog-post. I'm using Color segmentation to recognize color of balls and then using tracker. The real-time results is as follows:
 
