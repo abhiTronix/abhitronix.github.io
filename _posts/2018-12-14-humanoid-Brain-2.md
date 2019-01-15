@@ -79,7 +79,7 @@ Neural Nets with many layers pass input data (features) through more mathematica
 # Conclusion:
 ![](/img/in-post/manav/brain-2-9.jpg)
 
-Well from the above disscussion, it turns out, Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth.
+Well from the above discussion, it turns out, Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth.
 
 ---
 
