@@ -61,7 +61,7 @@ This method tracks the salient feature array of frames and uses this as an ancho
 #### Result:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hwlbixEG0Rg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p align="center" style="font-size: 13px; font-style:bold;">Video Stabilization Using Point Feature Matching in OpenCV</p>
+<p align="center" style="font-size: 13px; font-style:bold;">Video Stabilization Using Point Feature Matching in OpenCV(Real-Time)</p>
 
 Hence from the resultant stabilized video is as above, depicting the successful implementation of this method in both recorded Video and Real-time application. The graphs shown at the end, in the video is as follows:
 ![](/img/in-post/manav/AEAM-3-3.png)
