@@ -49,7 +49,7 @@ So, In order to implement Video Stabilization in OpenCV, I studied & experimente
 1. Video Stabilization Using Point Feature Matching - [Research Paper](https://www.researchgate.net/publication/321589788_Video_Stabilization_Using_Point_Feature_Matching)
 2. MeshFlow Controlled based Video Stabilization - [Research Paper](https://link.springer.com/chapter/10.1007/978-3-319-46466-4_48)  
 
-The first method is already been implemented in Matlab [here](https://www.mathworks.com/help/vision/examples/video-stabilization-using-point-feature-matching.html). But unfortunately, there was no source code available for the second method, neither I know any. So I re-implemented both these methods in python. *Wonder why python?*, well, python provides some of the best Extensive Support Libraries, and is suitable for any cross-integration with any other programming language. A summarized explanation of both method is discussed below with suitable examples:  
+The first method is already been implemented in Matlab [here](https://www.mathworks.com/help/vision/examples/video-stabilization-using-point-feature-matching.html) and C++ [here](http://nghiaho.com/?p=2093). But unfortunately, there was no source code available for the second method, neither I know any. So I re-implemented both these methods in python. *Wonder why python?*, well, python provides some of the best Extensive Support Libraries, and is suitable for any cross-integration with any other programming language. A summarized explanation of both method is discussed below with suitable examples:  
 
 ### 1. Video Stabilization Using Point Feature Matching:
 
