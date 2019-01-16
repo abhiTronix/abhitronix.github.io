@@ -56,7 +56,7 @@ The first method is already been implemented in Matlab [here](https://www.mathwo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLuQhXBtS7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p align="center" style="font-size: 13px; font-style:bold;">Video Stabilization Using Point Feature Matching in OpenCV(Video)</p>
 
-This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method only works for the fixed length only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
+This method tracks the salient feature array of frames and uses this as an anchor point to cancel out all perturbations relative to it. The original method works for the fixed length video only and not with real-time feed. So I modified this method to work with the real-time output of my AEAM. The modified algorithm works as follows:
 ![](/img/in-post/manav/AEAM-3.png)*Video Stabilization algorithm*
 1. Find the affine transformation from previous to current frame using optical flow for a set of frames(*collected in a Frame queue*). The transformation only consists of three parameters: dx(*deviation in x-direction*), dy(*deviation in y-direction*), da(*deviation in angle*).
 ![](/img/in-post/manav/AEAM-3-0.png)*Feature Points in Frame A and B*
@@ -88,7 +88,7 @@ After observing this method's performance with different videos and live feed, I
   * This method is good against zooming(scaling) jitter in the video.
 * Cons:
   * This method performed poorly against high-frequency perturbations.
-  * This method is also not good with Rolling Shutter.
+  * This method is also not good with Rolling Shutter distortions.
 
 ---
 
