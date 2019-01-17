@@ -60,7 +60,7 @@ Here are few initial Manav - user interactions, showcasing its *Speech Recogniti
 ### Migration to Python3:
 Manav was initially written in python 2.7 but Python 2.7 will not be maintained past 2020. Therefore I decided to parse my algorithms into Python-3 to maintain future compatibility, But it takes large scale algorithms modifications which is the most tiring task. Luckily, I came across [**Naomi Project**](https://github.com/NaomiProject/Naomi), the latest fork of [*Jasper Project*](https://jasperproject.github.io/#about), is already ported in Python-3 and currently being developed. Thus made conversion way simpler, So huge thanks to DEVS of this project.
 
-#Conclusion:
+# Conclusion:
 Hence through this post, we brief explained *what Manav is? and how it can mimic the functioning of real human brain?*, thereby making it ideal as our Humanoid brain. The upcoming post will showcase the physical Interaction of Manav with Humanoid parts/sensors in real-time, So Stay tuned for more. 
 
 ---
