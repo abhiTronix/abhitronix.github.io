@@ -3,7 +3,7 @@ layout: post
 title: "Designing a Humanoid Brain-4"
 subtitle: 'Part-4: Manav: A Humanoid AI'
 author: "abhiTronix"
-header-img: "img/brain-bg-4.jpg"
+header-img: "img/brain-bg-4.png"
 header-mask: 0.2
 tags:
   - Humanoid
@@ -54,9 +54,8 @@ Manav is a kind of **Artificially Intelligent Robot**, where both the Robotics H
 
 ### Real-Time Voice Interactions(*over mic*):
 Here are few initial Manav - user interactions, showcasing its *Speech Recognition and Synthesis* capabilities in Real-Time:
-<iframe width="480" height="270" src="https://www.youtube.com/embed/tyEizsXhGhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="480" height="270" src="https://www.youtube.com/embed/Sce9jfGkDmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- <iframe width="480" height="270" src="https://www.youtube.com/embed/tyEizsXhGhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- <iframe width="480" height="270" src="https://www.youtube.com/embed/Sce9jfGkDmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Migration to Python3:
 Manav was initially written in python 2.7 but Python 2.7 will not be maintained past 2020. Therefore I decided to parse my algorithms into Python-3 to maintain future compatibility, But it takes large scale algorithms modifications which is a most tiring task. Luckily, the task becomes simpler by utilizing [**Naomi Project**](https://github.com/NaomiProject/Naomi), the latest fork of [*Jasper Project*](https://jasperproject.github.io/#about), is already ported in Python-3 and currently being developed. Thus made conversion way simpler, So huge thanks to DEVS of this project.
