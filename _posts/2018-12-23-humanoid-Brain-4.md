@@ -20,7 +20,7 @@ Update: 23 December 2018
 
 ---
 
-This is an introductory post and you will learn how I re-implemented my *[*Matson*](https://abhitronix.github.io/2018/12/20/humanoid-Brain-3/#matson-the-talking-ai) AI* and transformed it into *Manav - A Humanoid AI?*
+This is an introductory post and you will learn how I re-implemented my *[Matson](https://abhitronix.github.io/2018/12/20/humanoid-Brain-3/#matson-the-talking-ai) AI* and transformed it into *Manav - A Humanoid AI?*
 
 # Initial Thoughts:
 
