@@ -7,107 +7,167 @@
 
 <url>
   <loc>https://abhitronix.github.io/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/about/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/portfolio/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/2018/12/28/3d-print-1/</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/2018/12/23/humanoid-Brain-4/</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/2018/12/20/humanoid-Brain-3/</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/2018/12/14/humanoid-Brain-2/</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/2018/12/09/humanoid-Brain-1/</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/2018/11/30/humanoid-AEAM-3/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/2018/11/12/humanoid-AEAM-2/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/2018/10/25/humanoid-AEAM-1/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/2018/10/10/humanoid-begin/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/2018/07/27/picit-intro/</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Artificial+Intelligence</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Humanoid</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Deep+Vision</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=Deep+Learning</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=Matson</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Robotics</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=Machine+Learning</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=OpenCV</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://abhitronix.github.io/archive/?tag=Speech+recognition</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=3D+printing</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=Softwares</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=3D+Modeling</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://abhitronix.github.io/archive/?tag=Manav</loc>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://abhitronix.github.io/archive/?tag=Stabilization</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Detection</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Tracking</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Kinematics</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://abhitronix.github.io/archive/?tag=Matson</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=Android</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://abhitronix.github.io/archive/?tag=PiciT</loc>
-  <lastmod>2019-01-13T13:59:08+00:00</lastmod>
+  <lastmod>2019-01-18T09:17:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
