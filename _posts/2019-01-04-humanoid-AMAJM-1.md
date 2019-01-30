@@ -91,12 +91,14 @@ The final circuit is as follows:
 ![](/img/in-post/amajm/amajm-1-8.png)*Final AMAJM Circuit*
 
 ### Mechanism Integration(Conclusion):
-![](/img/in-post/amajm/amajm-1-10.jpg)*Human Skull*
+![](/img/in-post/amajm/amajm-1-10.jpg)
 The circuit design(discuss above), is then integrated with our Articulate Jaw Mechanism, in which servo controls the close-open movement of the jaw. The ATmega controllers used for the Arduino Uno contain an onboard 6 channel analog-to-digital (A/D) converter. The converter has 10-bit resolution, returning integers from 0 to 1023. While the main function of the analog pins for most Arduino users is to read analog sensors, the analog pins also have all the functionality of general purpose input/output (GPIO) pins (the same as digital pins 0 - 13). The Arduino senses the change in amplitude of Input Audio Signal  through its [*analog pin*](https://www.arduino.cc/en/Tutorial/AnalogInputPins), thereby Arduino generates the value(*between 0~1023*) displayed the resultant values in the Arduino Serial Terminal as follows:
 
+<iframe width="871" height="490" src="https://www.youtube.com/embed/PEwaonLlr1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The AMAJM acts between the audio signal generated from Manav's speech synthesis algorithm and the Articulate Jaw Mechanism servo. Therefore achieving real-time performance successfully. The AMAJM final design produces the following real-time result:
 
+<iframe width="480" height="270" src="https://www.youtube.com/embed/W0aUmqkF22c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
