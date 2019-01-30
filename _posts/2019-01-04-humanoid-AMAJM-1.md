@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Amplitude Manipulated Articulate Jaw Mechanism(AMAJM)-1"
-subtitle: 'Part-1: Circuit Designing, Mechanism Integration'
+subtitle: 'Part-1: Circuit Designing and Mechanism Integration'
 author: "abhiTronix"
 header-img: "img/amajm-bg-1.jpg"
 header-mask: 0.2
@@ -72,12 +72,12 @@ If we look at an audio signal with an oscilloscope, we see a similar picture.  W
 The amplitude of the wave is 2V: it reaches a maximum voltage of +2V and a minimum voltage of -2V.  This is a problem if we want to measure the audio signal with one of the Arduino's analog inputs because the Arduino can only measure voltages between 0 and 5V. If we tried to measure the negative voltages in the signal, the Arduino would read only 0V and we would end up clipping the bottom of the signal. My approach to tackle this is as follows:
 
 
-Min voltage = Center Voltage - Amplitude
-Min voltage = 2.5V - 2.5V = 0V
+**Min voltage = Center Voltage - Amplitude
+Min voltage = 2.5V - 2.5V = 0V**
 
 
-Max Voltage = Center Voltage + Amplitude
-Max Voltage = 2.5V + 2.5V = 5V
+**Max Voltage = Center Voltage + Amplitude
+Max Voltage = 2.5V + 2.5V = 5V**
 
 ![](/img/in-post/amajm/amajm-1-7.png)*DC offsetting*
 
