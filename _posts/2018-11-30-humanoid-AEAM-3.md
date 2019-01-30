@@ -9,6 +9,7 @@ tags:
   - Humanoid
   - Deep Vision
   - OpenCV
+  - AEAM
   - Stabilization
   - Artificial Intelligence
   

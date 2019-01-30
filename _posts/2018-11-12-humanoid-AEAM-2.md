@@ -10,6 +10,7 @@ tags:
   - Robotics
   - Deep Vision
   - OpenCV
+  - AEAM
   - Detection
   - Tracking
   - Artificial Intelligence

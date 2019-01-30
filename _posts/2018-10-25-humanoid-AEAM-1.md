@@ -8,6 +8,7 @@ header-mask: 0.2
 tags:
   - Humanoid
   - Robotics
+  - AEAM
   - Kinematics
 ---
 
