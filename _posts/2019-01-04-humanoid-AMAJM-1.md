@@ -43,6 +43,10 @@ In my case, the buffer size is 64 bytes(Arduino Uno) only. USB transfers are han
 I designed AMAJM, a advanced articulated mechanism that can somewhat mimic the natural movement of Human mouth, with the help of movement triggered by the Amplitude of the input audio signal.
 
 ### Roadmap:
+
+<iframe width="956" height="538" src="https://www.youtube.com/embed/scwOLRYyVbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center" style="font-size: 13px; font-style:bold;">Audio Input Sinusoidal wave on Oscilloscope in Real-Time</p>
+
 Amplitude is the maximum displacement or distance moved by a point on a vibrating body or wave measured from its equilibrium position. It is equal to one-half the length of the vibration path. In our case(Analog sound waves), it is the extent to which air particles are displaced, and this amplitude of sound or sound amplitude is experienced as the loudness of sound. The loudness perception of a sound is determined by the amplitude of the sound waves − the higher the amplitude, the louder the sound.
 ![](/img/in-post/amajm/amajm-1-1.jpg)*Amplitude(A)*
 
