@@ -19,7 +19,9 @@ body, html {
 	/*color: #000;*/
 	/*text-decoration: none;*/
 }
-
+.main br {
+	padding-bottom: 2cm;
+}
 .main, .container > header {
 	width: 90%;
 	max-width: 69em;
@@ -262,9 +264,7 @@ header img{
 	position: relative;
 	border-radius: 50%;
 }
-br {
-	padding-bottom: 3cm;
-}
+
 .cbp_tmlabel .hux_ul{
 	border:none;
 	padding:0;
