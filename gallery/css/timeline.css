@@ -262,6 +262,9 @@ header img{
 	position: relative;
 	border-radius: 50%;
 }
+br {
+	padding-bottom: 3cm;
+}
 .cbp_tmlabel .hux_ul{
 	border:none;
 	padding:0;
