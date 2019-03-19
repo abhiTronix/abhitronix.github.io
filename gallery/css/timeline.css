@@ -13,7 +13,7 @@ body, html {
 .main a{
 	color:#0085a1;
 }
-.main h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+.main h1 { color: #fff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
 }
 .main a:hover {
 	/*color: #000;*/
