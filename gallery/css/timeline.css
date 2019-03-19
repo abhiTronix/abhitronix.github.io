@@ -13,7 +13,7 @@ body, html {
 .main a{
 	color:#0085a1;
 }
-.main h1 { color: #fff; font-family: 'Righteous', cursive; font-size: 65px; font-weight: normal; line-height: 60px; margin: 10px 0 20px; text-transform: uppercase; text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; text-align: center; }
+.main h1 { color: #fff; font-family: 'Wanderlust', cursive; font-size: 65px; font-weight: normal; line-height: 60px; margin: 10px 0 20px; text-transform: uppercase; text-shadow: 2px 2px 0 #000, margin: 10px 0 24px; text-align: center; }
 }
 .main a:hover {
 	/*color: #000;*/
@@ -43,6 +43,14 @@ body, html {
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Wanderlust';
+	src:url('fonts/font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .cbp_tmtimeline {
 	padding: 0;
 	list-style: none;
