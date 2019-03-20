@@ -20,7 +20,7 @@ $.ajax({
   success: function (data) {
     $(data).find("a").attr("href", function (i, val) {
       if( val.match(/\.(jpg|png|jpeg)$/) ) { 
-        carouselLinks.append( folder + val );
+        carouselLinks.push( folder + val );
       } 
     });
   }
