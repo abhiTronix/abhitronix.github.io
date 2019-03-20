@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: 'Halfomania';
-  src:url('fonts/Halfomania-Regular.ttf') format('truetype');
+  src:url('../fonts/Halfomania-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
