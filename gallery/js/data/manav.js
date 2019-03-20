@@ -45,7 +45,7 @@ $(function () {
         })         
       }
     }
-    // Initialize the Gallery as image carousel:
+    // Initialize the Gallery as video carousel:
     blueimp.Gallery(datavid_array, {
     container: '#blueimp-video-carousel',
     carousel: true
