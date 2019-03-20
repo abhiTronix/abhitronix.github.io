@@ -602,12 +602,12 @@ body {
   color: #404040;
   overflow-x: hidden;
   text-rendering: auto;
-  text-align: justify;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 p {
   margin: 30px 0;
+  text-align: justify;
 }
 h1,
 h2,
