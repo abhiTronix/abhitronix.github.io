@@ -40,7 +40,7 @@ $(function () {
         var itemvid = json[key];
         datavid_array.push({
           title: itemvid.Title,
-          type: 'image/html',
+          type: 'text/html',
           youtube: itemvid.ID
         })         
       }
