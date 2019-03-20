@@ -24,13 +24,12 @@ $.ajax({
       } 
     });
   }
+  // Initialize the Gallery as image carousel:
+  blueimp.Gallery(carouselLinks, {
+    container: '#blueimp-image-carousel',
+    carousel: true
+  })
 });
-
-// Initialize the Gallery as image carousel:
-blueimp.Gallery(carouselLinks, {
-  container: '#blueimp-image-carousel',
-  carousel: true
-})
 
   // Initialize the Gallery as video carousel:
   blueimp.Gallery([
