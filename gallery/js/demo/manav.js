@@ -12,36 +12,25 @@
  /* global blueimp, $ */
 
 // Initialize the Gallery as image carousel:
-blueimp.Gallery(
-  [
-  {
-    title: '1',
-    href: 'pics/1.jpg',
-    type: 'image/jpeg',
-    thumbnail: 'pics/1.jpg'
-  },
-  {
-    title: '2',
-    href: 'pics/2.jpg',
-    type: 'image/jpeg',
-    thumbnail: 'pics/2.jpg'
-  },
-  {
-    title: '3',
-    href: 'pics/3.jpg',
-    type: 'image/jpeg',
-    thumbnail: 'pics/3.jpg'
-  },
-  {
-    title: '4',
-    href: 'pics/4.jpg',
-    type: 'image/jpeg',
-    thumbnail: 'pics/4.jpg'
+var folder = "pics/";
+var carouselLinks = []
+
+$.ajax({
+  url : folder,
+  success: function (data) {
+    $(data).find("a").attr("href", function (i, val) {
+      if( val.match(/\.(jpg|png|jpeg)$/) ) { 
+        carouselLinks.append( folder + val );
+      } 
+    });
   }
-  ], {
-    container: '#blueimp-image-carousel',
-    carousel: true
-  })
+});
+
+// Initialize the Gallery as image carousel:
+blueimp.Gallery(carouselLinks, {
+  container: '#blueimp-image-carousel',
+  carousel: true
+})
 
   // Initialize the Gallery as video carousel:
   blueimp.Gallery([
