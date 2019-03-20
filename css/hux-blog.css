@@ -21,6 +21,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Mosk_Bold';
+  src:url('../fonts/Mosk_Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Potra';
   src:url('../fonts/Potra.ttf') format('truetype');
   font-weight: normal;
@@ -600,7 +606,7 @@ h6 {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: 'Halfomania';
+  font-family: 'Mosk_Bold';
   line-height: 1.7;
   font-weight: bold;
 }
