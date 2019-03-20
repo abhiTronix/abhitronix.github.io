@@ -19,17 +19,18 @@ $.ajax({
   url : folder,
   success: function (data) {
     $(data).find("a").attr("href", function (i, val) {
-      if( val.match(/\.(jpg|png|jpeg)$/) ) { 
-        carouselLinks.push( folder + val );
+      if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+        carouselLinks.append( folder + val );
       } 
     });
   }
-  // Initialize the Gallery as image carousel:
-  blueimp.Gallery(carouselLinks, {
-    container: '#blueimp-image-carousel',
-    carousel: true
-  })
 });
+
+// Initialize the Gallery as image carousel:
+blueimp.Gallery(carouselLinks, {
+  container: '#blueimp-image-carousel',
+  carousel: true
+})
 
   // Initialize the Gallery as video carousel:
   blueimp.Gallery([
