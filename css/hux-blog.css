@@ -20,6 +20,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Potra';
+  src:url('../fonts/Potra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .sidebar-container {
   color: #bfbfbf;
   font-size: 14px;
@@ -1068,7 +1074,7 @@ samp {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
-    font-family: 'Halfomania';
+    font-family: 'Potra';
   }
 }
 .intro-header .post-heading h1 {
