@@ -9,32 +9,35 @@
  * https://opensource.org/licenses/MIT
  */
 
- /* global blueimp, $ */
+/* global blueimp, $ */
 
-// Initialize the Gallery as image carousel:
-var folder = "pics/";
-var carouselLinks = []
+$(function () {
+  'use strict'
 
-$.ajax({
-  url : folder,
-  success: function (data) {
-    $(data).find("a").attr("href", function (i, val) {
-      if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-        carouselLinks.append( folder + val );
-      } 
-    });
-  }
-});
-
-// Initialize the Gallery as image carousel:
-blueimp.Gallery(carouselLinks, {
-  container: '#blueimp-image-carousel',
-  carousel: true
-})
+  $.getJSON('test.json', function (json) {
+    var array = []
+    for (var key in json) {
+      if (json.hasOwnProperty(key)) {
+        var item = json[key];
+        array.push({
+          href: item.Path,
+          title: item.Title,
+          type: 'image/jpeg'
+        })         
+      }
+    }
+    // Initialize the Gallery as image carousel:
+    blueimp.Gallery(array, {
+    container: '#blueimp-image-carousel',
+    carousel: true
+  })
+  })
+ 
+  
 
   // Initialize the Gallery as video carousel:
   blueimp.Gallery([
-  {
+    {
     title: 'Manav Humanoid Active Ball Tracking [Testing Phase-1]',
     type: 'text/html',
     youtube: 'UWUayEP_caQ'
@@ -48,3 +51,4 @@ blueimp.Gallery(carouselLinks, {
     container: '#blueimp-video-carousel',
     carousel: true
   })
+})
