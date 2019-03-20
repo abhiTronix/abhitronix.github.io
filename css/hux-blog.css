@@ -602,6 +602,7 @@ body {
   color: #404040;
   overflow-x: hidden;
   text-rendering: auto;
+  text-align: justify;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
