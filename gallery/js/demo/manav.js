@@ -14,7 +14,7 @@
 $(function () {
   'use strict'
 
-  $.getJSON('test.json', function (json) {
+  $.getJSON('js/demo/test.json', function (json) {
     var array = []
     for (var key in json) {
       if (json.hasOwnProperty(key)) {
