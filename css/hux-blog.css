@@ -14,6 +14,12 @@
     padding-right: 5%;
   }
 }
+@font-face {
+  font-family: 'Halfomania';
+  src:url('fonts/Halfomania-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .sidebar-container {
   color: #bfbfbf;
   font-size: 14px;
@@ -1062,6 +1068,7 @@ samp {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    font-family: 'Halfomania';
   }
 }
 .intro-header .post-heading h1 {

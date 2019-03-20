@@ -1,10 +1,5 @@
 
-> A Visionary Inventor, Developer & Researcher.
-
-Hi, I am *@abhiTronix* a.k.a **Abhishek Singh Thakur** - a hardworking, determined, and a passionate Researcher. I'm always keen to learn newer techniques, skills and consistently working on achieving long-term goals. I am currently researching on various aspects of inventing|developing newer technologies by combining existing open-source technologies in the field of Humanoids, Robots and Artificial-Intelligence(Deep Learning | Computer Vision | Machine Learning) in order to help to shape our future. I graduated from [Himachal Pradesh Technical University, Hamirpur, India](http://www.himtu.ac.in/) back in 2017 & Since then, involved in working on a different innovative project and researching new possibilities.
-
-
-##### Robotics Projects  
+I'm **Abhishek Singh Thakur** a.k.a *@abhiTronix* - a visionary engineer, developer and passionate researcher. Since childhood, I have been fascinated with the intelligent robots in video games and movies and their colossal power inspired me to create something similiar. In order to realize this goal, i’m currently exploiting existing open-source libraries and resources in the field of Robotics and Artificial-Intelligence (Deep Learning/ Computer Vision/ Machine Learning). A few of my such creations are:
 
 - [Manav - A Life-Sized Humanoid](https://abhitronix.github.io/archive/?tag=Humanoid) Nov 2018 – Present
 - [Tactically Assisted Unmanned Ground Vehicle with Crawling Surveillance Robot](https://sites.google.com/view/taugv-csr/home) Dec 2017 – May 2018
