@@ -210,7 +210,7 @@ body, html {
 .navbar-custom .nav li a,
 .navbar-custom .nav li a:hover,
 .navbar-custom .navbar-brand,
-.navbar-custom .navbar-brand:hover {color:#fff;}
+.navbar-custom .navbar-brand:hover {}
 .navbar-default .navbar-toggle .icon-bar {background-color:#777;}
 
 html{
