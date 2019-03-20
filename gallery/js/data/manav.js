@@ -14,12 +14,12 @@
 $(function () {
   'use strict'
 
-  $.getJSON('js/demo/test.json', function (json) {
-    var array = []
+  $.getJSON('js/data/data_images.json', function (json) {
+    var data_array = []
     for (var key in json) {
       if (json.hasOwnProperty(key)) {
         var item = json[key];
-        array.push({
+        data_array.push({
           href: item.Path,
           title: item.Title,
           type: 'image/jpeg'
@@ -27,28 +27,28 @@ $(function () {
       }
     }
     // Initialize the Gallery as image carousel:
-    blueimp.Gallery(array, {
+    blueimp.Gallery(data_array, {
     container: '#blueimp-image-carousel',
     carousel: true
   })
   })
  
-  
-
-  // Initialize the Gallery as video carousel:
-  blueimp.Gallery([
-    {
-    title: 'Manav Humanoid Active Ball Tracking [Testing Phase-1]',
-    type: 'text/html',
-    youtube: 'UWUayEP_caQ'
-  },
-  {
-    title: 'Amplitude Manipulated Articulate Jaw Mechanism(AMAJM) [Test-2]',
-    type: 'text/html',
-    youtube: 'W0aUmqkF22c'
-  }
-  ], {
+  $.getJSON('js/data/data_videos.json', function (json) {
+    var datavid_array = []
+    for (var key in json) {
+      if (json.hasOwnProperty(key)) {
+        var itemvid = json[key];
+        datavid_array.push({
+          title: itemvid.Title,
+          type: 'image/html',
+          youtube: itemvid.ID
+        })         
+      }
+    }
+    // Initialize the Gallery as image carousel:
+    blueimp.Gallery(datavid_array, {
     container: '#blueimp-video-carousel',
     carousel: true
+  })
   })
 })
