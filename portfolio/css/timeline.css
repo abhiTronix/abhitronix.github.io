@@ -265,7 +265,7 @@ header img{
 	width: 200px;
 	height: 230px;
 	position: relative;
-	border-radius: 50%;
+	border-radius: 10%;
 }
 .cbp_tmlabel .hux_ul{
 	border:none;
