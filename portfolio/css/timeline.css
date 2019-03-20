@@ -225,7 +225,7 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background-image: url(../images/header-bg.png);
+	background-image: url(../images/header-bg.jpg);
 }
 header::before {
 	content: '';
@@ -234,7 +234,7 @@ header::before {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(../images/header-bg.png);
+	background-image: url(../images/header-bg.jpg);
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
 	opacity: 1;
