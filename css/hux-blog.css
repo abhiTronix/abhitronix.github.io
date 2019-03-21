@@ -45,9 +45,15 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Nexa_Light';
+  font-family: 'Nexa';
   src:url('../fonts/Nexa_Light.otf') format('opentype');
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa';
+  src:url('../fonts/Nexa_Bold.otf') format('opentype');
+  font-weight: bold;
   font-style: normal;
 }
 .sidebar-container {
@@ -596,7 +602,7 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: 'Nexa_Light';
+  font-family: 'Nexa';
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
