@@ -39,7 +39,7 @@ The camera module is high spec and much better quality than a basic USB webcam. 
 
 Below you can see a full breakdown of the resolutions and attributes that this camera supports at various sensor modes:
 
-| Mode | Resolution | Aspect | Ratio | Framerate | FoV | Binning|
+| Mode | Resolution | Aspect Ratio | Framerate | FoV | Binning|
 |------|------------|--------|-------|-----------|-----|--------|
 | 1 | 1920x1080 | 16:9 | 1 - 30 | Partial | None|
 | 2 |2592x1944 | 4:3 | 1 - 15 | Full | None |
