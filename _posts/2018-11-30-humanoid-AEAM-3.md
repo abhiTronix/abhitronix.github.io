@@ -106,10 +106,11 @@ The MeshFlow is a spatial smooth sparse motion field with motion vectors only at
 frame. Mesh Flow only operate on a sparse regular grid of vertex profiles, such that the expensive optical flow can be replaced with cheap feature matches. For one thing, they are similar because they both encode strong spatial smoothness. For another, they are different as one is dense and the other is sparse. Moreover, the motion estimation methods are totally different. Next, we show an estimation of spacial coherent motions at mesh vertexes.
 ![](/img/in-post/manav/AEAM-3-6.png)
 ![](/img/in-post/manav/AEAM-3-7.png)*Median Filters f1 & f2*
+
 - **Median Filters:** Each mesh vertex should only have one unique motion vector, which is picked from the motion candidates at each vertex by a median filter. Another median filter is applied spatially to reject motion outliers caused by mismatched features and dynamic objects.
 - **Motions Accumulation:** In this approach, the pixel profile collects motion vectors at a fixed spatial location along the time. The motions at the pixel-profile is a very good approximation of the corresponding motion track.
-![](/img/in-post/manav/AEAM-3-8.png)
-*Predicted Adaptive Path Smoothing (PAPS)*
+![](/img/in-post/manav/AEAM-3-8.png)*Predicted Adaptive Path Smoothing (PAPS)*
+
 - **Predicted Adaptive Path Smoothing (*PAPS*):** A vertex profile represents the motion of its neighboring image regions. MeshFlow can smooth all the vertex profiles for the smoothed motions. It begins by describing an offline filter, and then extend it for online smoothing.
 
 #### Meshflow Denoising:
