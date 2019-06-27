@@ -140,7 +140,7 @@
       // Remove elements outside of the preload range from the DOM:
       unloadElements: true,
       // Start with the automatic slideshow:
-      startSlideshow: false,
+      startSlideshow: true,
       // Delay in milliseconds between slides for the automatic slideshow:
       slideshowInterval: 5000,
       // The starting index as integer.
