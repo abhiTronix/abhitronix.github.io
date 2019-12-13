@@ -227,19 +227,18 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background-image: url(../img/header-bg.jpg);
 }
-header::before {
+
+body::before {
 	content: '';
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(../img/header-bg.jpg);
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-	opacity: 1;
+	background-image: url(../img/headerz.png);
+	background-size: cover;
+	will-change: transform;
 	z-index: -1;
 }
 
