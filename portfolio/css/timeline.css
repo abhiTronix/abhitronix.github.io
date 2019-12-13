@@ -298,16 +298,16 @@ header{
 	padding: 5em 0px;
 	padding-bottom: 10em;
 	position: relative;
-	background-image: url(../images/header-bg.jpg);
 }
-header::before {
+body::before {
 	content: '';
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
-	height: 100%;
-	width: 100%;
-	background-image: url(../images/header-bg.jpg);
+	height: 200%;
+	width: 200%;
+	background-image: url(../images/home-bg-2.jpg);
+	will-change: transform;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
 	opacity: 1;
