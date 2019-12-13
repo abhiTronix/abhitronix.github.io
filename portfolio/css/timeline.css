@@ -175,7 +175,7 @@ body, html {
 	height: 40px;
 	background: url("../images/logo-kissy.png") 60% 60% no-repeat;
 	background-size: 20px;
-}
+}icons
 
 .i-ai:before {
 	content: "";
@@ -183,6 +183,71 @@ body, html {
 	width: 40px;
 	height: 40px;
 	background: url("../images/logo-ai.png") 60% 60% no-repeat;
+	background-size: 20px;
+}
+.i-ml:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url("../images/ml.png") 35% 35% no-repeat;
+	background-size: 20px;
+}
+.i-android:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url("../images/android.png") 35% 35% no-repeat;
+	background-size: 20px;
+}
+.i-cv:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url("../images/cv.png") 40% 40% no-repeat;
+	background-size: 20px;
+}
+.i-python:before {
+	content: "";
+	display: block;
+	width: 52px;
+	height: 52px;
+	background: url("../images/python.png") 30% 30% no-repeat;
+	background-size: 20px;
+}
+
+.i-thread:before {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url("../images/mthread.png") 30% 30% no-repeat;
+	background-size: 20px;
+}
+.i-stab:before {
+	content: "";
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: url("../images/stab.png") 40% 40% no-repeat;
+	background-size: 20px;
+}
+.i-arduino:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url("../images/arduino.png") 40% 40% no-repeat;
+	background-size: 20px;
+}
+.i-robot:before {
+	content: "";
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: url("../images/robot.png") 40% 40% no-repeat;
 	background-size: 20px;
 }
 
@@ -300,7 +365,7 @@ header img{
     padding: 0.5em 0;
 }
 .cbp_tmlabel ul li.skill{
-	overflow: auto;
+	overflow: hidden;
 	margin-top: 9px;
 	border-top: 1px solid #eeefef;
 }
