@@ -226,6 +226,14 @@ body, html {
 	background: url("../images/mthread.png") 30% 30% no-repeat;
 	background-size: 20px;
 }
+.i-gcc:before {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url("../images/gcc.png") 30% 30% no-repeat;
+	background-size: 20px;
+}
 .i-stab:before {
 	content: "";
 	display: block;
@@ -405,6 +413,15 @@ header img{
 	background: white;
 	border: 1px solid #D5D6D8;
 	margin: 4px 0px;
+}
+.cbp_tmlabel ul li.skill span.git{
+	float: left;
+	width: auto;
+	min-width: 70px;
+	height: 32px;
+	background: white;
+	margin-left:5px;
+	margin-top:10px;
 }
 
 .cbp_tmlabel ul li.skill span.link:hover,
