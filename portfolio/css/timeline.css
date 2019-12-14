@@ -304,12 +304,12 @@ body::before {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 200%;
-	width: 200%;
+	height: 100%;
+	width: 100%;
 	background-image: url(../images/home-bg-2.jpg);
 	will-change: transform;
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
 	opacity: 1;
 	z-index: -1;
 }
